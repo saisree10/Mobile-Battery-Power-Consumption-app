@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:background="@drawable/switch_widget_4x1_bg" android:paddingLeft="8.0dip" android:paddingTop="6.0dip" android:paddingRight="10.0dip" android:paddingBottom="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/layout_btn1" android:background="@drawable/switch_button_center" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/icon_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/layout_btn2" android:background="@drawable/switch_button_center" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/icon_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/layout_btn3" android:background="@drawable/switch_button_center" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/icon_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/layout_btn4" android:background="@drawable/switch_button_center" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/icon_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/layout_btn5" android:background="@drawable/switch_button_center" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/icon_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/settings_more" android:background="@drawable/switch_button_center" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:background="@drawable/settings_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+    </LinearLayout>
+</LinearLayout>

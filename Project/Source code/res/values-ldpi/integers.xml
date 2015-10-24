@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="home_top_area_weight">560</integer>
+    <integer name="home_mid_area_weight">0</integer>
+    <integer name="home_bottom_area_weight">440</integer>
+    <integer name="diagnostic_top_area_weight">35</integer>
+    <integer name="diagnostic_bottom_area_weight">65</integer>
+</resources>

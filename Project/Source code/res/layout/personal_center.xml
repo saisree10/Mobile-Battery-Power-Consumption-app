@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/whole_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/coin_intro" android:background="@drawable/battery_details_item_bkg" android:paddingLeft="@dimen/personal_center_padding_left" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/personal_center_padding_left" android:paddingRight="@dimen/personal_center_padding_left" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:paddingTop="@dimen/personal_center_margin_top" android:paddingBottom="@dimen/personal_center_margin_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/back_personal_center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ducoins_back" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/ducoin_title_size" android:textColor="@color/ducoin_title" android:id="@id/ducoin_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/coin_introduce_title" android:drawableLeft="@drawable/saver_smart_ducoinsicon_large" android:drawablePadding="@dimen/ducoin_title_icon_padding_right" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <ImageView android:background="@color/personal_center_divider" android:layout_width="fill_parent" android:layout_height="@dimen/personal_center_divider" />
+            <LinearLayout android:orientation="vertical" android:id="@id/introduce_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/ducoin_footer_text_size" android:textColor="@color/ducoin_footer" android:id="@id/ducoin_footer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ducoin_footer_margin_top_bottom" android:layout_marginBottom="@dimen/ducoin_footer_margin_top_bottom" />
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView android:id="@id/slideout_placeholder" android:background="@drawable/battery_details_item_bkg" android:paddingLeft="@dimen/personal_center_padding_left" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/personal_center_padding" android:paddingRight="@dimen/personal_center_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/personal_center_margin_top">
+                <ImageView android:id="@id/share" android:background="@drawable/personal_center_share" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/personal_center_icon_padding" />
+                <ImageView android:id="@id/settings" android:background="@drawable/personal_center_settings" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/personal_center_account_size" android:textColor="@*android:color/white" android:gravity="left|center" android:id="@id/phone_model" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/personal_center_account_margin_top" android:singleLine="true" android:drawableLeft="@drawable/batterycenter_phoneicon" android:drawablePadding="@dimen/personal_center_model_padding" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/personal_center_phone_model_margin_top">
+                <RelativeLayout android:gravity="center" android:id="@id/coin_button" android:background="@drawable/personal_center_button_bkg" android:layout_width="0.0dip" android:layout_height="@dimen/personal_center_button_height" android:layout_weight="1.0">
+                    <ImageView android:id="@id/coin_icon" android:background="@drawable/saver_smart_ducoinsicon" android:layout_width="@dimen/personal_center_coin_size" android:layout_height="@dimen/personal_center_coin_size" android:scaleType="centerInside" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/personal_center_button_text_size" android:textColor="@*android:color/white" android:id="@id/coin_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/personal_center_button_margin" android:singleLine="true" android:layout_toRightOf="@id/coin_icon" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <ImageView android:background="@*android:color/transparent" android:layout_width="@dimen/personal_center_divider" android:layout_height="fill_parent" />
+                <RelativeLayout android:id="@id/msg_box_button" android:background="@drawable/personal_center_button_bkg" android:layout_width="0.0dip" android:layout_height="@dimen/personal_center_button_height" android:layout_weight="1.0">
+                    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <ImageView android:id="@id/msg_box_icon" android:background="@drawable/batterycenter_messagesicon" android:layout_width="@dimen/personal_center_coin_size" android:layout_height="@dimen/personal_center_coin_size" android:scaleType="centerInside" android:layout_centerVertical="true" />
+                        <TextView android:textSize="@dimen/personal_center_button_text_size" android:textColor="@*android:color/white" android:id="@id/msg_box_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/personal_center_button_margin" android:text="@string/msg_box_button" android:singleLine="true" android:layout_toRightOf="@id/msg_box_icon" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                    <ImageView android:id="@id/msg_box_new_flag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginRight="3.0dip" android:src="@drawable/toolbox_new_tip" android:scaleType="centerInside" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <ImageView android:background="@*android:color/transparent" android:visibility="gone" android:layout_width="@dimen/personal_center_divider" android:layout_height="fill_parent" />
+                <RelativeLayout android:gravity="center" android:id="@id/rate_button" android:background="@drawable/personal_center_button_bkg" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="@dimen/personal_center_button_height" android:layout_weight="1.0">
+                    <ImageView android:id="@id/rate_icon" android:background="@drawable/batterycenter_rateicon" android:layout_width="@dimen/personal_center_coin_size" android:layout_height="@dimen/personal_center_coin_size" android:scaleType="centerInside" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/personal_center_button_text_size" android:textColor="@*android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/personal_center_button_margin" android:text="@string/personal_center_rate" android:singleLine="true" android:layout_toRightOf="@id/rate_icon" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <ImageView android:background="@color/personal_center_divider" android:layout_width="fill_parent" android:layout_height="@dimen/personal_center_divider" android:layout_marginTop="@dimen/personal_center_divider_margin_top" android:layout_marginBottom="@dimen/personal_center_divider_margin_bottom" />
+            <TextView android:textSize="@dimen/personal_center_archievement_size" android:textColor="@color/personal_center_archievement_title" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/personal_center_archievement_margin" android:text="@string/personal_center_achievement" />
+            <LinearLayout android:orientation="vertical" android:id="@id/archievements_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <ImageView android:background="@drawable/home_shadow" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/personal_center_padding_left" />
+    <ImageView android:id="@id/slidedout_cover" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+</RelativeLayout>

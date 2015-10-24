@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:gravity="center" android:src="@drawable/battery_simple_bg" />
+    </item>
+    <item android:left="2.5dip" android:right="16.5dip">
+        <bitmap android:src="@drawable/battery_battery_digit_1" />
+    </item>
+    <item android:left="7.5dip" android:right="11.5dip">
+        <bitmap android:src="@drawable/battery_battery_digit_0" />
+    </item>
+    <item android:left="14.5dip" android:right="4.5dip">
+        <bitmap android:src="@drawable/battery_battery_digit_0" />
+    </item>
+</layer-list>

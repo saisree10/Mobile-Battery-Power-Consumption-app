@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="smart_mode_setting_title">20.0sp</dimen>
+    <dimen name="diagnostic_item_width">73.0dip</dimen>
+    <dimen name="tips_title_size">24.0sp</dimen>
+    <dimen name="tips_margin_title_to_image">30.0sp</dimen>
+    <dimen name="sleepmode_float_tips_guide">11.0sp</dimen>
+    <dimen name="time_picker_type_size">12.0sp</dimen>
+    <dimen name="tips_title_text_size">20.0sp</dimen>
+    <dimen name="main_title_text_size">16.0sp</dimen>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="bottom|left|center" android:id="@id/capacity_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/new_battery_shape" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="top|center" android:id="@id/charging_sign" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dx_batterygraph_sign_margin_top" android:src="@drawable/battery_charging" android:scaleType="center" />
+    <TextView android:textSize="@dimen/dx_batterygraph_text_size" android:textColor="@color/local_white" android:gravity="center_horizontal" android:layout_gravity="bottom|center" android:id="@id/number_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dx_batterygraph_text_bottom" android:shadowColor="@color/battery_percent_shadow" android:shadowDx="0.0" android:shadowDy="-1.0" android:shadowRadius="1.0" />
+</merge>

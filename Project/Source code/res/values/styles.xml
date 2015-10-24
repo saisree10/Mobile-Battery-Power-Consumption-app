@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="com_facebook_loginview_default_style" parent="@*android:style/Widget.Button">
+        <item name="android:textSize">@dimen/com_facebook_loginview_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/com_facebook_loginview_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/com_facebook_button_blue</item>
+        <item name="android:paddingLeft">@dimen/com_facebook_loginview_padding_left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="com_facebook_loginview_silver_style" parent="@*android:style/Widget.Button">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff4b5164</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/com_facebook_loginbutton_silver</item>
+        <item name="android:height">44.0dip</item>
+        <item name="android:width">205.0dip</item>
+    </style>
+    <style name="Dialog_Fullscreen">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="MyTheme" parent="@*android:style/Theme">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="MyTheme.TableText" parent="@style/MyTheme">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/local_white</item>
+    </style>
+    <style name="MyTheme.CustomDialog" parent="@style/MyTheme">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="MyTheme.UpdateTipsDialog" parent="@style/MyTheme" />
+    <style name="ShowDialogStyle">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="MyTheme.CustomDialogNoDim" parent="@style/MyTheme.CustomDialog">
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="Theme.Transparent" parent="@*android:style/Theme">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@*android:style/Animation</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="main_tab_bottom">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/home_tab_btn_bg</item>
+        <item name="android:paddingTop">6.0dip</item>
+        <item name="android:paddingBottom">6.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">2.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="font_main_title">
+        <item name="android:textSize">@dimen/main_title_text_size</item>
+        <item name="android:textColor">@color/main_title_color</item>
+    </style>
+    <style name="font_main_tab_text">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/main_tab_text_color</item>
+    </style>
+    <style name="battery_info_view_summary">
+        <item name="android:textSize">@dimen/battery_info_view_summary_size</item>
+        <item name="android:textColor">@color/main_tab_text_color_normal</item>
+    </style>
+    <style name="battery_info_view_value">
+        <item name="android:textSize">@dimen/battery_info_view_value_size</item>
+        <item name="android:textColor">@color/main_tab_text_color_normal</item>
+    </style>
+    <style name="diagnostic_list_item_title">
+        <item name="android:textSize">@dimen/diagnostic_page_item_title_size</item>
+        <item name="android:layout_marginTop">@dimen/diagnostic_page_scan_text_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/diagnostic_page_scan_text_margin_bottom</item>
+    </style>
+    <style name="common_dialog_title">
+        <item name="android:textSize">@dimen/dialog_title_text_size</item>
+        <item name="android:textColor">@color/dialog_title_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/pop_box_b_title</item>
+        <item name="android:paddingLeft">@dimen/dialog_content_margin_left_right</item>
+        <item name="android:paddingRight">@dimen/dialog_content_margin_left_right</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="common_dialog_wrapper">
+        <item name="android:background">@*android:color/transparent</item>
+        <item name="android:minWidth">@dimen/common_dialog_min_width</item>
+    </style>
+    <style name="common_dialog_content_text">
+        <item name="android:textSize">@dimen/dialog_list_text_size</item>
+        <item name="android:textColor">@color/local_white</item>
+    </style>
+    <style name="common_dialog_content_style">
+        <item name="android:paddingLeft">@dimen/dialog_content_margin_left_right</item>
+        <item name="android:paddingTop">@dimen/dialog_content_margin_top</item>
+        <item name="android:paddingRight">@dimen/dialog_content_margin_left_right</item>
+        <item name="android:paddingBottom">@dimen/dialog_content_margin_bottom</item>
+    </style>
+    <style name="common_dialog_buttom_text">
+        <item name="android:textSize">@dimen/dialog_button_text_size</item>
+        <item name="android:textColor">@color/btn_text</item>
+    </style>
+    <style name="common_dialog_list_item_style">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/dialog_list_item_bkg</item>
+        <item name="android:paddingLeft">@dimen/dialog_list_margin_left_right</item>
+        <item name="android:paddingRight">@dimen/dialog_list_margin_left_right</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+    </style>
+    <style name="common_dialog_list_item_text_style">
+        <item name="android:textSize">@dimen/dialog_list_text_size</item>
+        <item name="android:textColor">@color/local_white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+    </style>
+    <style name="settings_layout_style">
+        <item name="android:textSize">@dimen/list_item_title_text_size</item>
+        <item name="android:textColor">@color/main_tab_text_color_normal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/list_item_height</item>
+    </style>
+    <style name="common_list_style">
+        <item name="android:background">@drawable/mode_list_item_bkg</item>
+        <item name="android:paddingLeft">@dimen/list_item_margin_left_right</item>
+        <item name="android:paddingRight">@dimen/list_item_margin_left_right</item>
+        <item name="android:minHeight">@dimen/mode_list_item_height</item>
+    </style>
+    <style name="one_key_switch_style">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/dialog_list_item_bg</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">@dimen/one_key_switch_height</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="progress_Dialog_Fullscreen">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="dialog_anim" parent="@*android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/op_conf_in</item>
+        <item name="android:windowExitAnimation">@anim/my_skin_out</item>
+    </style>
+</resources>

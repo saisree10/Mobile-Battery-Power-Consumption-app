@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="update_tips_title_size">22.0sp</dimen>
+    <dimen name="update_tips_minus_title_size">16.0sp</dimen>
+    <dimen name="health_charging_cycle_text_max_width">80.0dip</dimen>
+    <dimen name="tv_last_charging_status_size">13.0sp</dimen>
+    <dimen name="dx_switch_pref_details_size">13.0sp</dimen>
+    <dimen name="mode_status_show_item_value_maxwidth">150.0dip</dimen>
+    <dimen name="smart_mode_setting_title">18.0sp</dimen>
+    <dimen name="smart_mode_setting_detail_text_size">13.0sp</dimen>
+    <dimen name="diagnostic_item_width">70.0dip</dimen>
+    <dimen name="smart_mode_battery_settings_item_text_size">15.0sp</dimen>
+    <dimen name="tips_title_size">24.0sp</dimen>
+    <dimen name="tips_des_size">14.0sp</dimen>
+    <dimen name="charger_record_common_size">15.0sp</dimen>
+    <dimen name="charger_record_health_size">15.0sp</dimen>
+    <dimen name="smart_settings_item_text_size">14.0sp</dimen>
+    <dimen name="tips_title_text_size">20.0sp</dimen>
+</resources>

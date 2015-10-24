@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="feedback_dialog_input_edit_gravity">53</integer>
+    <integer name="feedback_dialog_contact_edit_gravity">21</integer>
+    <integer name="new_mode_edit_gravity">21</integer>
+</resources>

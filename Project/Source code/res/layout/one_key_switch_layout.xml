@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/one_key_switch_height">
+        <com.dianxinos.powermanager.settings.view.WlanSwitchView style="@style/one_key_switch_style" />
+        <com.dianxinos.powermanager.settings.view.MobileDataSwitchView android:id="@id/mobile_layout" style="@style/one_key_switch_style" />
+        <com.dianxinos.powermanager.settings.view.BrightnessSwitchView style="@style/one_key_switch_style" />
+        <com.dianxinos.powermanager.settings.view.RingSwitchView style="@style/one_key_switch_style" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/one_key_switch_height">
+        <com.dianxinos.powermanager.settings.view.VibrateSwitchView style="@style/one_key_switch_style" />
+        <com.dianxinos.powermanager.settings.view.GpsSwitchView android:id="@id/gps_layout" style="@style/one_key_switch_style" />
+        <com.dianxinos.powermanager.settings.view.BluetoothSwitchView style="@style/one_key_switch_style" />
+        <com.dianxinos.powermanager.settings.view.RadioSwitchView style="@style/one_key_switch_style" />
+    </LinearLayout>
+</LinearLayout>

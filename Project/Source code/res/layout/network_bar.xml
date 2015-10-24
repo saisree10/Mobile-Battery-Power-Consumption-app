@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/network_bar" android:background="@drawable/optimize_page_divier_bg" android:layout_width="fill_parent" android:layout_height="@dimen/coin_balance_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/coin_balance_bar_balance_size" android:textColor="@color/smart_settings_gray" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/network_bar" android:lines="1" android:layout_weight="1.0" />
+    <Button android:textSize="@dimen/coin_balance_bar_whats_this_size" android:textColor="@color/smart_settings_gray" android:id="@id/open_network" android:paddingLeft="@dimen/whats_this_padding_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/diagnostic_ad_open" />
+</LinearLayout>

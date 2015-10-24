@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/toolbox_loading_mask_color" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/toolbox_apps_listview_item_text_name_color" android:id="@id/toolbox_app_tctb_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/toolbox_app_not_available_title" />
+        <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/toolbox_app_tctb_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/toolbox_app_not_available_msg" />
+        <View android:id="@id/toolbox_app_tctb_line" android:background="#ff686868" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="20.0dip" />
+        <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="#ff686868" android:id="@id/toolbox_app_tctb_recommend" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/toolbox_app_not_available_recommend" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/toolbox_apps_tctb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip">
+            <ImageView android:id="@id/toolbox_apps_tctb_ad_icon" android:layout_width="@dimen/toolbox_apps_listview_item_icon_size" android:layout_height="@dimen/toolbox_apps_listview_item_icon_size" android:layout_marginLeft="@dimen/toolbox_apps_listview_item_text_margin_left" android:scaleType="fitXY" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip">
+                <TextView android:textColor="#ff59c4fb" android:ellipsize="end" android:id="@id/toolbox_apps_tctb_ad_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:singleLine="true" />
+                <TextView android:textColor="#ff686868" android:ellipsize="end" android:id="@id/toolbox_apps_tctb_ad_downlaod" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/toolbox_tctb_space" android:layout_width="wrap_content" android:layout_height="50.0dip" />
+        <TextView android:textSize="@dimen/toolbox_loading_des_text_size" android:textColor="@color/toolbox_loading_des_text_color" android:id="@id/toolbox_loading_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/banner_hot_games_button" />
+        <ImageView android:id="@id/toolbox_loading_dots" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:src="@drawable/toolbox_dots" />
+    </LinearLayout>
+    <ImageView android:id="@id/toolbox_loading_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="14.0dip" android:src="@drawable/crop_image_cancel_button" />
+</merge>

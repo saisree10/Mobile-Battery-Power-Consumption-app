@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tips_margin_title_to_image">30.0sp</dimen>
+    <dimen name="right_top_btn_font">12.0sp</dimen>
+    <dimen name="chargerecord_bottom_margintop">13.0dip</dimen>
+    <dimen name="bottom_info_font">12.0sp</dimen>
+    <dimen name="diagnostic_list_item_button_text_size">10.0sp</dimen>
+    <dimen name="mode_list_item_content_text_size">11.0sp</dimen>
+    <dimen name="list_item_content_text_size">11.0sp</dimen>
+    <dimen name="about_button_text_size">13.0dip</dimen>
+    <dimen name="smart_settings_item_text_size">14.0sp</dimen>
+    <dimen name="smart_settings_item_text_drawabl_padding">12.0dip</dimen>
+    <dimen name="battery_info_title_text_size">16.0sp</dimen>
+    <dimen name="main_title_text_size">16.0sp</dimen>
+</resources>

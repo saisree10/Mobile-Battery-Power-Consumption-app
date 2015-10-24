@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/statusbar_bkg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/app_icon_nf" android:scaleType="fitCenter" android:layout_centerVertical="true" />
+    <TextView android:textSize="16.0dip" android:textColor="@color/mode_gray_color" android:ellipsize="marquee" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:singleLine="true" android:layout_toRightOf="@id/icon" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/mode_gray_color" android:ellipsize="marquee" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:singleLine="true" android:layout_toRightOf="@id/icon" android:layout_below="@id/title" />
+</RelativeLayout>

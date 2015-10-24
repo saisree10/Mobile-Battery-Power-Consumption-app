@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/mode_list_normal_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/new_mode_name_linear" android:background="@color/tab_indicator_background_color" android:paddingLeft="@dimen/new_mode_title_margin_left_right" android:paddingTop="@dimen/new_mode_title_margin_top_bottom" android:paddingRight="@dimen/new_mode_title_margin_left_right" android:paddingBottom="@dimen/new_mode_title_margin_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/new_mode_title_text_size" android:textColor="@color/new_mode_title_text_color" android:id="@id/mode_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:text="@string/mode_newmode_name_setting_hint" />
+        <EditText android:textSize="@dimen/new_mode_title_text_size" android:textColor="@color/local_white" android:gravity="center|clip_horizontal" android:id="@id/nameedit" android:background="@drawable/feedback_editor_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:singleLine="true" android:maxLength="30" />
+    </LinearLayout>
+    <ScrollView android:id="@id/newmode_scrollview" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/newmode_setting_items" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/tab_indicator_background_color" android:paddingLeft="@dimen/new_mode_title_margin_left_right" android:paddingTop="@dimen/new_mode_title_margin_top_bottom" android:paddingRight="@dimen/new_mode_title_margin_left_right" android:paddingBottom="@dimen/new_mode_title_margin_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+        <Button android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/save" android:background="@drawable/btn_confirm_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/new_mode_title_buttoms_margin" android:text="@string/mode_newmode_save" android:layout_weight="1.0" />
+        <Button android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/cancel" android:background="@drawable/btn_confirm_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mode_newmode_cancel" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

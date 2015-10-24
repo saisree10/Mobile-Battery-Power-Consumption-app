@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/setting_bg_middle" android:layout_width="fill_parent" android:layout_height="@dimen/power_usage_detail_list_item_height_big"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="@dimen/monitor_list_item_image" android:layout_height="@dimen/monitor_list_item_image" android:layout_marginLeft="@dimen/list_item_margin_left_right" android:layout_marginRight="@dimen/monitor_list_item_image_margin_right" android:scaleType="fitCenter" />
+    <TextView android:textSize="@dimen/power_usage_detail_title_text_size" android:textColor="@color/local_white" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/label" android:layout_width="0.0dip" android:layout_height="@dimen/power_usage_detail_list_item_height_big" android:singleLine="true" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/power_usage_detail_title_text_size_small" android:textColor="@color/mode_content_color" android:gravity="center_vertical" android:id="@id/progress" android:paddingRight="@dimen/list_item_margin_left_right" android:layout_width="wrap_content" android:layout_height="@dimen/power_usage_detail_list_item_height_big" />
+    <ImageView android:id="@id/indicator" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/charge_page_button_right_normal" />
+</LinearLayout>

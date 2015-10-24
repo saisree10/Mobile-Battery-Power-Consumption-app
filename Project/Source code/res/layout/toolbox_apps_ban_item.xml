@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/toolbox_apps_gridview_item_icon_layout" android:background="@*android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="@dimen/toolbox_apps_ban_item_icon_width" android:layout_height="@dimen/toolbox_apps_ban_item_icon_height" android:layout_centerInParent="true">
+        <ImageView android:id="@id/toolbox_apps_gridview_item_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <ImageView android:id="@id/toolbox_apps_gridview_item_icon_installed" android:layout_width="@dimen/toolbox_apps_gridview_item_icon_installed_size" android:layout_height="@dimen/toolbox_apps_gridview_item_icon_installed_size" android:src="@drawable/toolbox_app_installed" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/toolbox_apps_gridview_item_text_size" android:textColor="@color/toolbox_apps_gridview_item_text_color" android:gravity="center" android:layout_gravity="top|center" android:id="@id/toolbox_apps_gridview_item_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/toolbox_apps_gridview_item_text_margin_top" android:maxLines="2" android:layout_below="@id/toolbox_apps_gridview_item_icon" />
+</RelativeLayout>

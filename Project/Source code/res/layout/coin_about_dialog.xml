@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/aboutducoins_bkg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/diag_ad_dialog_title_text_size" android:textColor="@color/diag_ad_dialog_title" android:ellipsize="end" android:id="@id/title" android:paddingTop="@dimen/diag_ad_dialog_title_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/coin_about_title" android:lines="1" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/cancel_cross" android:paddingLeft="@dimen/diag_ad_dialog_cross_padding_left" android:paddingTop="@dimen/diag_ad_dialog_cross_padding" android:paddingRight="@dimen/diag_ad_dialog_cross_padding_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/crop_image_cancel_button" android:layout_toRightOf="@id/title" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/coin_about_context_margin_left" android:paddingRight="@dimen/coin_about_context_margin_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/coin_about_context_text_margin_top">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aboutducoins_download" />
+                <TextView android:textSize="@dimen/coin_about_content_text_size" android:textColor="@color/coin_abount_content_text_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/coin_about_context_drawable_padding" android:text="@string/coin_about_step1" android:lineSpacingExtra="@dimen/coin_about_context_line_spacing" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/coin_about_context_margin_left" android:paddingRight="@dimen/coin_about_context_margin_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/coin_about_context_text_margin_top">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aboutducoins_ducoin" />
+                <TextView android:textSize="@dimen/coin_about_content_text_size" android:textColor="@color/coin_abount_content_text_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/coin_about_context_drawable_padding" android:text="@string/coin_about_step2" android:lineSpacingExtra="@dimen/coin_about_context_line_spacing" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/coin_about_context_margin_left" android:paddingRight="@dimen/coin_about_context_margin_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/coin_about_context_text_margin_top" android:layout_marginBottom="@dimen/coin_about_context_margin_bottom">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aboutducoins_unlock" />
+                <TextView android:textSize="@dimen/coin_about_content_text_size" android:textColor="@color/coin_abount_content_text_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/coin_about_context_drawable_padding" android:text="@string/coin_about_step3" android:lineSpacingExtra="@dimen/coin_about_context_line_spacing" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

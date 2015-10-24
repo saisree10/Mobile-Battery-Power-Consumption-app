@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="personal_center_achievement_title">
+        <item>Sağlık Şarj</item>
+        <item>Unlocked Akıllı Özellikler</item>
+        <item>Pil Skins Toplanan</item>
+    </string-array>
+    <string-array name="personal_center_achievement_sub_title">
+        <item>Çok iyi tutmak!</item>
+        <item>Daha kilidini DU Coins kullanın.</item>
+        <item>Pil Cilt Dükkanı ziyaret edin.</item>
+    </string-array>
+    <string-array name="coin_introduce_question">
+        <item>﻿﻿DU Coins nedir?</item>
+        <item>DU Coins nasıl kullanılır?</item>
+        <item>Nasıl DU Coins kazanırım?</item>
+        <item>Aynı uygulamayı birçok kez kaldırıp tekrar yükleyerek DU Coins kazanabilir miyim?</item>
+        <item>DU Coins birikme sınırı var mı?</item>
+        <item>Uygulamayı başarılı bir şekilde yükledim fakat DU Coins almadım. Neden böyle oldu?</item>
+    </string-array>
+    <string-array name="coin_introduce_answer">
+        <item>"DU Coins, DU Battery Saver kullanıcıları için bir teşviktir. Kullanıcılar Araç Kutusu'ndan DU Coins kazandıran uygulamaları indirerek DU Coins kazanabilir. DU Coins ile 2,99 $ değerindeki ücretli özellikler alınabilir;"</item>
+        <item>DU Coins ile 2,99 $ değerindeki ücretli özellikler alınabilir, yani profesyonel PRO sürümündeki güç tasarrufu hizmetinden yararlanmak için ödeme yapmanıza gerek yoktur.</item>
+        <item>"DU Battery Saver Araç Çubuğu'nu açın, ardından DU Coins simgesiyle işaretlenmiş uygulamaları bulup indirin. Uygulama başarıyla yüklendikten sonra ilgili DU Coins miktarını alacaksınız."</item>
+        <item>Hayır. Aynı uygulamadan sadece bir kez DU Coins alınabilir.</item>
+        <item>"Evet. DU Coins'le ilgili hile yapılmasını önlemek için günlük maksimum DU Coins sınırı oluşturduk. Buna göre şu an günde maksimum xx DU Coins kazanabilirsiniz."</item>
+        <item>Öncelikle, DU Coins kazandıran bir uygulama yüklediğinizden emin olun. Daha sonra, puan ödüllerinin internet üzerinden doğrulanmaları gerektiği için başarılı yüklemenin ardından DU Battery Saver tarafından puan ödülü bildiriminin gönderilmesini bekleyin (yaklaşık 1 dakika sürer). Hataları önlemek için yüklemenin hemen ardından internet bağlantınızı kesmeyin.</item>
+    </string-array>
+    <string-array name="update_tips_item_des">
+        <item>-Kullanıcı Arabirimi Optimizasyonu!</item>
+        <item>-Sabit bugs</item>
+    </string-array>
+    <string-array name="update_tips_item_des_paid">
+        <item>-Sabit bugs</item>
+    </string-array>
+</resources>

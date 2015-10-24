@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@drawable/contet_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/toolbox_apps_display" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/toolbox_apps" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <GridView android:gravity="center" android:layout_gravity="center" android:id="@id/toolbox_apps_gridview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:numColumns="3" />
+            <LinearLayout android:gravity="bottom|right|center" android:layout_gravity="bottom|right|center" android:orientation="vertical" android:id="@id/toolbox_apps_footer_des" android:paddingRight="@dimen/toolbox_apps_footer_des_align_right" android:paddingBottom="@dimen/toolbox_apps_footer_des_align_bottom" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/toolbox_apps_footer_des_a_text_size" android:textColor="@color/toolbox_apps_footer_des_a_text_color" android:id="@id/toolbox_apps_footer_des_a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/toolbox_apps_footer_des_a_text" />
+                <TextView android:textSize="@dimen/toolbox_apps_footer_des_b_text_size" android:textColor="@color/toolbox_apps_footer_des_b_text_color" android:id="@id/toolbox_apps_footer_des_b" android:paddingTop="@dimen/toolbox_apps_footer_des_b_align_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/toolbox_apps_footer_des_b_text" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/toolbox_no_apps" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="100.0">
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="@integer/toolbox_no_apps_status_image_percent">
+            <ImageView android:id="@id/toolbox_no_apps_status_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="@integer/toolbox_no_apps_des_percent">
+            <TextView android:textSize="@dimen/toolbox_no_apps_des_a_text_size" android:textColor="@color/toolbox_no_apps_des_a_text_color" android:gravity="center" android:id="@id/toolbox_no_apps_des_a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/toolbox_no_apps_des_a_text_margin_top" />
+            <TextView android:textSize="@dimen/toolbox_no_apps_des_b_text_size" android:textColor="@color/toolbox_no_apps_des_b_text_color" android:gravity="center" android:id="@id/toolbox_no_apps_des_b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/toolbox_no_apps_des_b_text_margin_top" android:singleLine="false" />
+            <Button android:textSize="@dimen/toolbox_no_apps_refresh_button_text_size" android:textColor="@color/toolbox_no_apps_refresh_button_text_color" android:id="@id/toolbox_no_apps_refresh_button" android:layout_width="@dimen/toolbox_no_apps_refresh_button_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/toolbox_no_apps_refresh_button_margin_top" android:text="@string/toolbox_no_apps_refresh_button_text" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/toolbox_loading" android:background="@color/toolbox_loading_mask_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/toolbox_loading_des_text_size" android:textColor="@color/toolbox_loading_des_text_color" android:id="@id/toolbox_loading_des" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center_horizontal" android:id="@id/toolbox_loading_dots" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/toolbox_loading_dots_margin_top">
+                <ImageView android:id="@id/toolbox_loading_dot_a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:src="@drawable/toolbox_loading_dot" />
+                <ImageView android:id="@id/toolbox_loading_dot_b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:layout_marginLeft="@dimen/toolbox_loading_dot_margin_left" android:src="@drawable/toolbox_loading_dot" />
+                <ImageView android:id="@id/toolbox_loading_dot_c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:layout_marginLeft="@dimen/toolbox_loading_dot_margin_left" android:src="@drawable/toolbox_loading_dot" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/mode_list_normal_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:power="http://schemas.android.com/apk/res-auto">
+    <com.dianxinos.powermanager.ui.MainTitle android:id="@id/main_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/main_title_margin_bottom" power:title_text="@string/app_name" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="100.0">
+        <RelativeLayout android:orientation="horizontal" android:id="@id/panel_1" android:paddingLeft="@dimen/home_area_padding_left_right" android:paddingRight="@dimen/home_area_padding_left_right" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="@integer/diagnostic_top_area_weight">
+            <com.dianxinos.powermanager.ui.DxBatteryGraph android:gravity="bottom" android:id="@id/small_battery_graph" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/diagnostic_page_battery_margin_right" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" power:scale="small" />
+            <com.dianxinos.powermanager.diagnostic.DiagnosticDetail android:textSize="@dimen/diagnostic_page_scan_text_size" android:id="@id/diagnostic_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/diagnostic_page_scan_text_margin_top" android:layout_marginBottom="@dimen/diagnostic_page_scan_text_margin_bottom" android:singleLine="true" android:layout_toRightOf="@id/small_battery_graph" android:layout_centerVertical="true" />
+            <ProgressBar android:id="@id/scan_app_progressbar" android:layout_width="fill_parent" android:layout_height="11.0dip" android:max="100" android:progressDrawable="@drawable/progressbar_style" android:layout_toRightOf="@id/small_battery_graph" android:layout_above="@id/diagnostic_status" style="?android:attr/progressBarStyleHorizontal" />
+            <com.dianxinos.powermanager.diagnostic.DiagnosticTitle android:textSize="@dimen/home_text_title_usage_power" android:gravity="bottom" android:id="@id/diagnostic_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="28.0dip" android:singleLine="true" android:layout_toRightOf="@id/small_battery_graph" android:layout_above="@id/diagnostic_status" />
+            <com.dianxinos.powermanager.diagnostic.StateButton android:textSize="@dimen/home_onekey_button_text" android:textColor="@color/dignostic_item_title_good_color" android:layout_gravity="center" android:id="@id/diagnostic_optimize" android:background="@drawable/power_analysis_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/small_battery_graph" android:layout_below="@id/diagnostic_status" />
+        </RelativeLayout>
+        <ImageView android:background="@drawable/optimize_page_divier_bg" android:layout_width="fill_parent" android:layout_height="6.0px" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="@integer/diagnostic_bottom_area_weight">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/home_area_padding_left_right" android:paddingRight="@dimen/home_area_padding_left_right" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/onekey_items_title" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textColor="@color/dignostic_item_title_warning_color" android:id="@id/onekey_items_title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/diagnostic_category_onekey_items" style="@style/diagnostic_list_item_title" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/onekey_items_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/dashi_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <View android:background="@drawable/scene_time_seg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/diagnostic_page_container_margin" />
+                    <TextView android:textColor="@color/dignostic_item_title_good_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dashi_recommend_title" style="@style/diagnostic_list_item_title" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/dashi_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/ad_items_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <View android:background="@drawable/scene_time_seg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/diagnostic_page_container_margin" />
+                    <TextView android:textColor="@color/dignostic_item_title_good_color" android:id="@id/ad_items_title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/diagnostic_ad_title" style="@style/diagnostic_list_item_title" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/ad_items_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/smart_items_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <View android:background="@drawable/scene_time_seg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/diagnostic_page_container_margin" />
+                    <TextView android:textColor="@color/dignostic_item_title_good_color" android:id="@id/smart_items_title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/diagnostic_category_smart_items" style="@style/diagnostic_list_item_title" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/smart_items_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/recommend_items_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <View android:background="@drawable/scene_time_seg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/diagnostic_page_container_margin" />
+                    <TextView android:textColor="@color/dignostic_item_title_good_color" android:id="@id/recommend_items_title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/diagnostic_category_recommend_items" style="@style/diagnostic_list_item_title" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/recommend_items_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/manual_items_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <View android:background="@drawable/scene_time_seg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/diagnostic_page_container_margin" />
+                    <TextView android:textColor="@color/dignostic_item_title_good_color" android:id="@id/manual_items_title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/diagnostic_category_manual_items" style="@style/diagnostic_list_item_title" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/manual_items_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

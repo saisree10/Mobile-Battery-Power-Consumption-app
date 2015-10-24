@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/user_tips_contents_margin_left_right" android:paddingRight="@dimen/user_tips_contents_margin_left_right" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/user_tips_big_title_text_size" android:textColor="@color/local_blue" android:id="@id/big_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/user_tips_big_title_margin_top" android:text="@string/user_tips_big_title" />
+    <TextView android:textSize="@dimen/user_tips_title_text_size" android:textColor="@color/local_blue" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/user_tips_titles_margin" android:layout_below="@id/big_title" />
+    <TextView android:textSize="@dimen/user_tips_content_text_size" android:textColor="#ff737373" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/user_tips_little_title_content_margin" android:layout_below="@id/title" android:lineSpacingExtra="@dimen/user_tips_content_line_space" />
+    <ImageView android:id="@id/icon" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/user_tips_icon_margin_bottom" android:scaleType="centerInside" android:layout_alignParentBottom="true" />
+</RelativeLayout>

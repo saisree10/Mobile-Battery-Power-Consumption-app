@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mode_scrollview_item" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_item_height" style="@style/common_list_style"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:power="http://schemas.android.com/apk/res-auto">
+    <com.dianxinos.powermanager.ui.DXSwitchButton android:gravity="center_vertical" android:id="@id/switchicon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/mode_list_item_title_text_size" android:textColor="@color/mode_nomal_color" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/switchicon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+</RelativeLayout>

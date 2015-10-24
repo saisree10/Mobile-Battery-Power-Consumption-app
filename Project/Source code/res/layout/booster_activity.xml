@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/dusppedbooster_bkg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:power="http://schemas.android.com/apk/res-auto">
+    <com.dianxinos.powermanager.ui.MainTitle android:id="@id/main_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/main_title_margin_bottom" power:title_text="@string/booster_name" />
+    <RelativeLayout android:gravity="right|center" android:id="@id/middle_area" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/booster_subtitle_text_size" android:textColor="@color/booster_subtitle_color" android:id="@id/rotation_text" android:layout_width="@dimen/booster_subtitle_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/booster_subtitle_text_margin_top" android:layout_marginRight="@dimen/booster_subtitle_text_margin_right" android:text="@string/booster_introduce" android:lineSpacingExtra="@dimen/booster_subtitle_text_line_space" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:background="@color/mode_list_normal_bg" android:layout_width="fill_parent" android:layout_height="@dimen/booster_button_area_height">
+        <Button android:textSize="@dimen/booster_button_text_size" android:textColor="@color/booster_button_text_color" android:gravity="center" android:id="@id/goto_play" android:background="@drawable/skinshop_price_button" android:layout_width="@dimen/booster_button_width" android:layout_height="@dimen/booster_button_height" android:text="@string/visit_skin_shop" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

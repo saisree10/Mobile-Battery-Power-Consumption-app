@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/coin_balancebar" android:background="@drawable/optimize_page_divier_bg" android:layout_width="fill_parent" android:layout_height="@dimen/coin_balance_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/coin_balance_bar_balance_size" android:textColor="@color/smart_settings_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/coin_balance" />
+    <TextView android:textSize="@dimen/coin_balance_bar_coin_value_size" android:textColor="@color/local_blue" android:id="@id/coin_balance_value" android:paddingLeft="@dimen/coin_balance_value_padding_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/saver_smart_ducoinsicon" android:drawablePadding="@dimen/coin_value_icon_padding_left" />
+    <TextView android:textSize="@dimen/coin_balance_bar_whats_this_size" android:textColor="@color/smart_settings_gray" android:id="@id/coin_whats_this" android:paddingLeft="@dimen/whats_this_padding_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/coin_whats_this" />
+</LinearLayout>

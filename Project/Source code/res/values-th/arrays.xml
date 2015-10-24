@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="personal_center_achievement_title">
+        <item>สุขภาพชาร์จ</item>
+        <item>คุณสมบัติสมาร์ทปลดล็อค</item>
+        <item>กินแบตเตอรี่ที่เก็บรวบรวม</item>
+    </string-array>
+    <string-array name="personal_center_achievement_sub_title">
+        <item>เป็นอย่างดีให้</item>
+        <item>ใช้คะแนนเพื่อปลดล็อคมากขึ้น</item>
+        <item>เยี่ยมชมร้านกินแบตเตอรี่</item>
+    </string-array>
+    <string-array name="coin_introduce_question">
+        <item>อะไรคือ DU Coins</item>
+        <item>มีวิธีใช้ DU Coins อย่างไร</item>
+        <item>ฉันจะได้รับ DU Coins อย่างไร</item>
+        <item>ฉันจะได้รับ DU Coins จากการถอนการติดตั้งและติดตั้งแอพพลิเคชั่นเดียวกันหลายครั้งหรือไม่</item>
+        <item>มีขีดจำกัดในการสะสม DU Coins หรือไม่</item>
+        <item>ฉันติดตั้งแอพพลิเคชั่นสำเร็จแล้วแต่ไม่ได้รับ Du Coins เพราะเหตุใด</item>
+    </string-array>
+    <string-array name="coin_introduce_answer">
+        <item>DU Coins คือรางวัลสำหรับผู้ใช้ DU Battery Saver ผู้ใช้สามารถได้รับ DU Coins จากการดาวน์โหลดแอพพลิเคชั่นที่สร้าง DU Coins ในกล่องเครื่องมือ สามารถแลก DU Coins เป็นฟีเจอร์ที่มีค่าใช้จ่ายมูลค่า $2.99</item>
+        <item>สามารถแลก DU Coins เป็นฟีเจอร์ที่มีค่าใช้จ่ายมูลค่า $2.99 คุณจึงไม่ต้องเสียเงินเพื่อเพลิดเพลินกับบริการประหยัดพลังงานเวอร์ชั่น PRO</item>
+        <item>เปิดกล่องเครื่องมือ DU Battery Saver แล้วค้นหาและดาวน์โหลดแอพพลิเคชั่นที่มีสัญลักษณ์ Du Coins หลังการติดตั้งสำเร็จ คุณจะได้รับ DU Coins ที่เกี่ยวข้อง</item>
+        <item>สามารถรับ DU Coins จากแอพพลิเคชั่นเดียวกันได้ครั้งเดียว</item>
+        <item>มี เพื่อป้องกันการโกง DU Coins เราได้กำหนดขีดจำกัด Du Coins สูงสุดต่อวันไว้ หมายความว่าขณะนี้คุณสามารถรับ DU Coins สูงสุด xx Du Coins ต่อวันเท่านั้น</item>
+        <item>อันดับแรก ตรวจสอบว่าคุณติดตั้งแอพพลิเคชั่นที่สร้าง DU Coins อันดับที่สอง การให้ Du Coins จะต้องถูกตรวจสอบผ่านอินเตอร์เน็ต ดังนั้นหลังจากการติดตั้งสำเร็จ โปรดรอสักครู่เพื่อให้ DU Battery Saver ทำการแจ้งการให้ Du Coins (ใช้เวลาประมาณ 1 นาที) ห้ามหยุดการเชื่อมต่ออินเตอร์เน็ตทันทีหลังการติดตั้งเพื่อป้องกันความผิดพลาด</item>
+    </string-array>
+    <string-array name="update_tips_item_des">
+        <item>-การปรับแต่งส่วนติดต่อผู้ใช้!</item>
+        <item>-โรคจิตถาวร</item>
+    </string-array>
+    <string-array name="update_tips_item_des_paid">
+        <item>-โรคจิตถาวร</item>
+    </string-array>
+</resources>

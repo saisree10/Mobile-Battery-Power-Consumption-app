@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="diagnostic_item_width">70.0dip</dimen>
+    <dimen name="home_onekey_button_text">17.0sp</dimen>
+    <dimen name="title_indicator_text_size">14.0sp</dimen>
+    <dimen name="settings_show_volunteer_title_margin_top">20.0dip</dimen>
+    <dimen name="settings_show_volunteer_national_flag_margin_left">15.0dip</dimen>
+    <dimen name="settings_show_volunteer_content_margin_top">10.0dip</dimen>
+    <dimen name="battery_theme_preview_padding_left">10.0dip</dimen>
+</resources>

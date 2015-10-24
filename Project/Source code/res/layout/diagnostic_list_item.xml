@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingBottom="@dimen/diagnostic_item_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.dianxinos.powermanager.ui.RunAppBackView android:id="@id/kill_process_anim_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/other_diag_item_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/diagnostic_page_item_content_size" android:textColor="@color/main_tab_text_color_normal" android:gravity="left|center" android:id="@id/summary" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="@dimen/diagnostic_item_width" android:layout_height="wrap_content">
+            <ProgressBar android:id="@id/ongoing" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:indeterminateDrawable="@drawable/ongoing_progress" />
+            <ImageView android:id="@id/ok_img" android:background="@drawable/optimize_page_list_ok_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/dx_ok_small" android:scaleType="center" />
+            <Button android:enabled="false" android:textSize="@dimen/diagnostic_page_item_button_text_size" android:textColor="@color/dignostic_item_text_color" android:id="@id/optimize" android:background="@drawable/optimize_page_list_button_check" android:paddingLeft="@dimen/diagnostic_page_item_button_padding" android:paddingRight="@dimen/diagnostic_page_item_button_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

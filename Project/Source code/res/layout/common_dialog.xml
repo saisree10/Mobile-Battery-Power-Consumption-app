@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/common_dialog_blank_area" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/common_dialog_width" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@id/title" style="@style/common_dialog_title" />
+        <LinearLayout android:orientation="vertical" android:id="@id/common_bkg" android:background="@drawable/pop_box_b_list" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/dialog_none_scroll_body" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/dialog_min_height" />
+            <ScrollView android:id="@id/dialog_body_padding_left_right" android:layout_width="fill_parent" android:layout_height="0.0dip" android:minHeight="@dimen/dialog_min_height" android:layout_weight="1.0" style="@style/common_dialog_content_style">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/dialog_body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dialog_min_height">
+                    <TextView android:textAppearance="@style/common_dialog_content_text" android:layout_gravity="center" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </ScrollView>
+            <ProgressBar android:id="@id/progress_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" android:indeterminateOnly="false" android:progressDrawable="@drawable/progress_bar" />
+            <CheckBox android:textColor="@color/local_white" android:id="@id/never_display" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/update_dialog_never_display" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/button_panel" android:paddingLeft="@dimen/dialog_button_margin_left_right" android:paddingRight="@dimen/dialog_button_margin_left_right" android:paddingBottom="@dimen/dialog_button_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/left_btn" android:background="@drawable/btn_confirm_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dialog_buttons_margin" android:text="@string/common_ok" android:singleLine="true" android:layout_weight="1.0" style="@style/common_dialog_buttom_text" />
+                <Button android:id="@id/right_btn" android:background="@drawable/btn_confirm_bkg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dialog_buttons_margin" android:text="@string/common_cancel" android:singleLine="true" android:layout_weight="1.0" style="@style/common_dialog_buttom_text" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

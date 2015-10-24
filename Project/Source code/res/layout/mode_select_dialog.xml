@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/touch_outside_close_area" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/mode_scrollview_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="100.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="90.0">
+            <TextView android:id="@id/settingdialog_title" style="@style/common_dialog_title" />
+            <ScrollView android:id="@id/mode_setting_dialog_scrollview" android:background="@drawable/pop_box_b_list" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/item_value_lists" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

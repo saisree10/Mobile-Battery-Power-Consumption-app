@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fadeScrollbars="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/skin_shop_slide_zero_padding_left" android:paddingTop="@dimen/slide_zero_des_title_margin_top" android:paddingBottom="@dimen/slide_zero_des_title_margin_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/slide_zero_des_title_text_size" android:textColor="@color/slide_zero_des_title_text_color" android:layout_width="@dimen/slide_zero_text_width" android:layout_height="wrap_content" android:text="@string/slide_zero_des_title_text" />
+        <ImageView android:background="@drawable/skinshop_slide0_devider" android:layout_width="@dimen/slide_zero_divider" android:layout_height="wrap_content" android:layout_marginTop="@dimen/skinshop_slide0_devider_margin_top" />
+        <TextView android:textSize="@dimen/slide_zero_des_one_text_size" android:textColor="@color/slide_zero_des_one_text_color" android:id="@id/text1" android:layout_width="@dimen/slide_zero_text_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/slide_zero_des_one_margin_top" android:text="@string/slide_zero_des_one_text" />
+        <ImageView android:id="@id/pic1" android:background="@drawable/skinshop_slide0_pic1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/slide_zero_des_one_margin_top" />
+        <TextView android:textSize="@dimen/slide_zero_des_one_text_size" android:textColor="@color/slide_zero_des_one_text_color" android:id="@id/text2" android:layout_width="@dimen/slide_zero_text_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/slide_zero_des_two_margin_top" android:text="@string/slide_zero_des_two_text" />
+        <ImageView android:id="@id/pic2" android:background="@drawable/skinshop_slide0_pic2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/slide_zero_des_one_margin_top" />
+        <TextView android:textSize="@dimen/slide_zero_des_one_text_size" android:textColor="@color/slide_zero_des_one_text_color" android:id="@id/text3" android:layout_width="@dimen/slide_zero_text_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/slide_zero_des_two_margin_top" android:text="@string/slide_zero_des_three_text" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="@drawable/list_item_bkg" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/checked_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/mode_off" />
+    <TextView android:textSize="20.0sp" android:textColor="@color/local_white" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

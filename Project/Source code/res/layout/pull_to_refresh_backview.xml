@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/diagnostic_page_item_content_size" android:textColor="@color/main_tab_text_color_normal" android:ellipsize="end" android:gravity="left|center" android:id="@id/pull_to_refresh_text" android:paddingBottom="@dimen/diag_anim_title_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <GridView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/backview_icon" android:scrollbars="none" android:fadingEdge="none" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@*android:color/transparent" android:verticalSpacing="@dimen/runapp_iconshow_padding" android:numColumns="6" />
+</LinearLayout>

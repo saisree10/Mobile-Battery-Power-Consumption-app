@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/contet_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:power="http://schemas.android.com/apk/res-auto">
+    <com.dianxinos.powermanager.ui.MainTitle android:id="@id/main_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/main_title_margin_bottom" power:title_text="@string/shared_app_name" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ll_about_copyright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tips_check_box_text_margin" android:layout_marginRight="@dimen/tips_check_box_text_margin" android:layout_marginBottom="@dimen/about_copyright_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@dimen/about_mail_text_size" android:textColor="@color/about_mail_text_color" android:ellipsize="end" android:gravity="left" android:id="@id/tv_rights" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/about_us_rights" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/about_mail_text_size" android:textColor="@color/about_mail_text_color" android:ellipsize="end" android:gravity="right" android:id="@id/tv_privacy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/about_rights_privacy_margin" android:maxWidth="@dimen/tips_property_text_max_width" android:text="@string/about_us_privacy_policy" android:maxLines="2" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/iv_about" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ll_about_copyright">
+            <ImageView android:id="@id/about_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/about_us_icon" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/about_title_text_size" android:textColor="@color/about_title_text_color" android:id="@id/about_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shared_app_name" android:layout_below="@id/about_icon" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/about_version_text_size" android:textColor="@color/about_version_text_color" android:id="@id/about_us_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/about_title_version_margin" android:layout_toRightOf="@id/about_title" android:layout_below="@id/about_icon" />
+            <TextView android:textSize="@dimen/about_subtitle_text_size" android:textColor="@color/about_subtitle_text_color" android:id="@id/about_us_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/about_title_subtitle_margin" android:text="@string/about_us_slogan" android:layout_below="@id/about_title" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

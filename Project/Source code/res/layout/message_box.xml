@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/battery_details_item_bkg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:power="http://schemas.android.com/apk/res-auto">
+    <com.dianxinos.powermanager.ui.MainTitle android:id="@id/main_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/main_title_margin_bottom" power:title_text="@string/msg_box_title" />
+    <com.dianxinos.optimizer.module.messagebox.DisableScrollListView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="2.0dip" android:listSelector="@*android:color/transparent" android:cacheColorHint="@*android:color/transparent" android:divider="@*android:color/transparent" android:dividerHeight="3.0dip" android:fadeScrollbars="true" />
+    <RelativeLayout android:gravity="center" android:id="@id/empty_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/login_pic" android:background="@drawable/my_skin_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/personal_center_login_text_size" android:textColor="@color/personal_center_empty_text" android:gravity="center" android:layout_width="@dimen/personal_center_login_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/personal_center_login_image_margin_bottom" android:text="@string/msg_box_empty_tip" android:layout_below="@id/login_pic" android:layout_centerHorizontal="true" android:lineSpacingExtra="@dimen/personal_center_login_text_line_extra" />
+    </RelativeLayout>
+</LinearLayout>

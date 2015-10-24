@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="personal_center_achievement_title">
+        <item>الصحة المسؤول</item>
+        <item>ميزة إفتح الذكية</item>
+        <item>الجلد البطارية</item>
+    </string-array>
+    <string-array name="personal_center_achievement_sub_title">
+        <item>.بشكل جيد للغاية، والحفاظ على</item>
+        <item>استخدام نقاط لفتح.</item>
+        <item>في الجلد على مخزن.</item>
+    </string-array>
+    <string-array name="coin_introduce_question">
+        <item>ما هي DU Coins؟</item>
+        <item>كيف تُستخدم DU Coins؟</item>
+        <item>كيف أكسب DU Coins؟</item>
+        <item>هل أستطيع كسب DU Coins من خلال إلغاء تثبيت التطبيق نفسه وإعادة تثبيته مرات عدة؟</item>
+        <item>هل من حدّ معين لتراكم DU Coins؟</item>
+        <item>ثبّتتُ تطبيقاً بنجاح ولكنني لم أحصل على أي من DU Coins. ما السبب؟</item>
+    </string-array>
+    <string-array name="coin_introduce_answer">
+        <item>DU Coins هي محفز لمستخدمي موفر الطاقة DU Battery Saver. يستطيع المستخدمون كسب DU Coins من خلال تنزيل تطبيقات تمنحهم إياها في مربع الأدوات. يمكن استرجاع DU Coins مقابل الميزات المدفوعة بقيمة 2,99$.</item>
+        <item>يمكن استرجاع DU Coins مقابل الميزات المدفوعة بقيمة 2,99$، بحيث لا تضطر إلى الدفع للاستمتاع بالإصدار الاحترافي Pro Version لخدمة توفير الطاقة.</item>
+        <item>افتح مربع أدوات موفر الطاقة DU Battery Saver، ثم ابحث عن التطبيقات التي تحمل رمز DU Coins ونزّلها. ستحصل على DU Coins المناسبة بعد تثبيت التطبيقات بنجاح.</item>
+        <item>لا. يمكن الحصول على DU Coins من التطبيق نفسه مرة واحدة فقط.</item>
+        <item>نعم. لمنع التلاعب بـ DU Coins، وضعنا حداً أقصى لـ DU Coins اليومية، ما يعني أنه بإمكانك حالياً الحصول على xx من DU Coins في اليوم الواحد كحد أقصى.</item>
+        <item>عليك أولاً التأكد من تثبيت تطبيق يمنحك DU Coins. ثانيًا، يجب مصادقة جوائز النقاط عبر الإنترنت، لذا يرجى انتظار إرسال إشعار الفوز بالنقاط بعد نجاح التثبيت من قِبل موفر الطاقة DU Battery Saver (يستغرق ذلك حوالى 1 من الدقائق). لا تقطع الاتصال بالإنترنت فور انتهاء التثبيت لتجنب حدوث المشاكل.</item>
+    </string-array>
+    <string-array name="update_tips_item_des">
+        <item>-تحسين واجهة المستخدم!</item>
+        <item>-علة ثابتة</item>
+    </string-array>
+    <string-array name="update_tips_item_des_paid">
+        <item>-علة ثابتة</item>
+    </string-array>
+</resources>

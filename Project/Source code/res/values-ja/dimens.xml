@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sleepmode_float_tips_guide">11.0sp</dimen>
+    <dimen name="tips_view_margin_bottom">4.0dip</dimen>
+    <dimen name="digital_unit_size">12.0sp</dimen>
+    <dimen name="title_indicator_text_size">14.0sp</dimen>
+    <dimen name="mode_list_item_title_text_size">16.0sp</dimen>
+    <dimen name="mode_list_item_content_text_size">11.0sp</dimen>
+    <dimen name="list_item_content_text_size">11.0sp</dimen>
+    <dimen name="smart_settings_item_text_size">14.0sp</dimen>
+    <dimen name="smart_settings_item_text_drawabl_padding">12.0dip</dimen>
+    <dimen name="main_title_text_size">18.0sp</dimen>
+</resources>

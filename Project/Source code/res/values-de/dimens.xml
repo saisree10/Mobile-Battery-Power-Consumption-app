@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="diagnostic_item_width">78.0dip</dimen>
+    <dimen name="tips_title_size">24.0sp</dimen>
+    <dimen name="tips_margin_title_to_image">30.0sp</dimen>
+    <dimen name="sleepmode_float_tips_guide">11.0sp</dimen>
+    <dimen name="time_picker_type_size">10.0sp</dimen>
+    <dimen name="white_app_list_title">18.0dip</dimen>
+    <dimen name="home_onekey_button_text">18.0dip</dimen>
+    <dimen name="home_text_title_usage_power">18.0sp</dimen>
+    <dimen name="smart_settings_item_text_size">13.0sp</dimen>
+    <dimen name="tips_title_text_size">20.0sp</dimen>
+    <dimen name="calendar_paper_margin_bottom">1.0dip</dimen>
+    <dimen name="settings_show_volunteer_title_margin_top">10.0dip</dimen>
+    <dimen name="settings_show_volunteer_title_margin_left">25.0dip</dimen>
+    <dimen name="settings_show_volunteer_content_padding_left">25.0dip</dimen>
+    <dimen name="settings_show_volunteer_national_flag_margin_left">25.0dip</dimen>
+    <dimen name="settings_show_volunteer_margin_top">4.0dip</dimen>
+    <dimen name="settings_show_volunteer_content_text_size">13.0dip</dimen>
+    <dimen name="settings_show_volunteer_help_us_margin_bottom">2.0dip</dimen>
+</resources>

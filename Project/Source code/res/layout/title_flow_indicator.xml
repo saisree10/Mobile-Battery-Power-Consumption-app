@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="marquee" android:gravity="center" android:id="@id/tab_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerInParent="true" />
+    <TextView android:textSize="@dimen/premium_text_size" android:textColor="@color/mode_nomal_color" android:gravity="center" android:id="@id/premium_tip" android:background="@drawable/premiun_tip_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/premium_margin_left" android:text="@string/premium_tip" android:layout_toRightOf="@id/tab_title" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/dialog_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/common_dialog_content_text" android:gravity="center" android:layout_gravity="center" android:id="@id/runapp_icon_no_run" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dialog_min_height" android:text="@string/home_no_runapp_showicon" style="@style/common_dialog_content_style" />
+    <GridView android:gravity="center" android:layout_gravity="center" android:id="@id/runapp_icon_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/dialog_content_icon_padding" android:horizontalSpacing="@dimen/dialog_content_icon_padding" android:verticalSpacing="@dimen/dialog_content_icon_padding" android:numColumns="5" android:minHeight="@dimen/dialog_min_height" />
+    <Button android:textAppearance="@style/common_dialog_buttom_text" android:layout_gravity="center" android:id="@id/runapp_icon_button_dialog" android:background="@drawable/power_analysis_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/home_onekey_clear" />
+</LinearLayout>

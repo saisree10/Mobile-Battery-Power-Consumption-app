@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/battery_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/skin_shop_item_margin_left" android:layout_marginTop="@dimen/skin_shop_item_margin_top" android:layout_marginBottom="@dimen/skin_shop_item_margin_bottom">
+        <ImageView android:background="@drawable/skinshop_batteryshadows" android:layout_width="@dimen/skin_shop_battery_mask_width" android:layout_height="@dimen/skin_shop_battery_mask_height" android:scaleType="fitXY" />
+        <ImageView android:id="@id/skin_bg" android:paddingLeft="@dimen/skin_shop_battery_skin_margin_left" android:paddingTop="@dimen/skin_shop_battery_skin_margin_top" android:layout_width="@dimen/skin_shop_battery_skin_width" android:layout_height="@dimen/skin_shop_battery_skin_height" android:scaleType="fitXY" />
+        <ImageView android:id="@id/skin_mask" android:background="@drawable/skinshop_batterymask" android:layout_width="@dimen/skin_shop_battery_mask_width" android:layout_height="@dimen/skin_shop_battery_mask_height" android:scaleType="fitXY" />
+        <ImageView android:id="@id/skin_shop_in_use" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/skin_shop_in_use_margin_left" android:layout_marginTop="@dimen/skin_shop_in_use_margin_top" android:src="@drawable/skinshop_selected" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/skin_shop_button_text_normal_size" android:textColor="@*android:color/black" android:gravity="right" android:id="@id/skin_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/skin_shop_item_name_margin_top" android:layout_marginRight="@dimen/skin_shop_item_margin_right" android:singleLine="true" android:layout_toRightOf="@id/battery_area" android:layout_alignParentRight="true" />
+    <FrameLayout android:layout_width="@dimen/skin_shop_item_button_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/skin_shop_item_button_margin_top" android:layout_marginRight="@dimen/skin_shop_item_margin_right" android:layout_below="@id/skin_name" android:layout_alignParentRight="true">
+        <RelativeLayout android:gravity="center" android:id="@id/skin_button_bg" android:background="@drawable/skinshop_price_button" android:layout_width="fill_parent" android:layout_height="@dimen/skin_purchase_button_height">
+            <TextView android:textSize="@dimen/skin_shop_button_text_normal_size" android:textColor="@color/skin_shop_purchase_button_color" android:id="@id/skin_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <ImageView android:layout_gravity="center" android:id="@id/skin_shop_share" android:background="@drawable/skinshop_share" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center" android:id="@id/downloading_process" android:background="@drawable/skinshop_processing" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</RelativeLayout>

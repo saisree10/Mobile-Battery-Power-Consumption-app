@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_item_margin_left_right" android:layout_marginRight="@dimen/list_item_margin_left_right" android:minHeight="@dimen/list_item_height">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/list_item_title_text_size" android:textColor="@color/mode_title_color" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="@dimen/list_item_content_text_size" android:textColor="@color/mode_content_color" android:id="@id/details" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="0.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/switch_text" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/switch_icon" android:background="@drawable/setting_switch_on" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mode_newmode_on" />
+    </LinearLayout>
+</merge>

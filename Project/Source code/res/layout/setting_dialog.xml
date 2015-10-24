@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/mode_scrollview_item" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:weightSum="100.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="90.0">
+        <TextView android:textSize="@dimen/dialog_title_text_size" android:textColor="@color/dialog_title_color" android:gravity="center" android:id="@id/settingdialog_title" android:background="@drawable/pop_box_b_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/feedback_title" />
+        <ScrollView android:id="@id/mode_setting_dialog_scrollview" android:background="@drawable/pop_box_b_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialog_title_correct_margin">
+            <LinearLayout android:orientation="vertical" android:id="@id/item_value_lists" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

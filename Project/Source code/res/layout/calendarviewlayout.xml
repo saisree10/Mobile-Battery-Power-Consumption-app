@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/calendar_title_bg_color" android:layout_width="fill_parent" android:layout_height="@dimen/calendar_title_height">
+        <TextView android:id="@id/calendar_pre" android:background="@drawable/calendar_prev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/calendar_title_array_margin_left_right" />
+        <TextView android:textSize="@dimen/calendar_title_text_size" android:textColor="@color/calendar_title_text_color" android:gravity="center" android:id="@id/calendar_current_month" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="36.0dip" android:layout_marginRight="36.0dip" android:layout_weight="1.0" />
+        <TextView android:id="@id/calendar_next" android:background="@drawable/calendar_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/calendar_title_array_margin_left_right" />
+    </LinearLayout>
+    <ImageView android:background="#ff181c26" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/calendar_dayview_bg_color" android:layout_width="fill_parent" android:layout_height="@dimen/calendar_week_day_title_height">
+        <TextView android:textSize="@dimen/calendar_title_size" android:textColor="@color/calendar_text_week" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/calendar_week_monday" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/calendar_title_size" android:textColor="@color/calendar_text_week" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/calendar_week_tuesday" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/calendar_title_size" android:textColor="@color/calendar_text_week" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/calendar_week_wednesday" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/calendar_title_size" android:textColor="@color/calendar_text_week" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/calendar_week_thursday" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/calendar_title_size" android:textColor="@color/calendar_text_week" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/calendar_week_friday" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/calendar_title_size" android:textColor="@color/calendar_text_week" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/calendar_week_saturday" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/calendar_title_size" android:textColor="@color/calendar_text_week" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/calendar_week_sunday" android:layout_weight="1.0" />
+    </LinearLayout>
+    <RelativeLayout android:background="@color/calendar_bkg_grey" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/calendar_main" android:background="@color/calendar_bkg_grey" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/calendar_anim" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <ImageView android:background="#ff04060b" android:layout_width="fill_parent" android:layout_height="2.0px" />
+</LinearLayout>

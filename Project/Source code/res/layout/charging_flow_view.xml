@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:id="@id/charging_flow_view" android:layout_width="@dimen/charging_flow_view_width" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/charging_flow_bkg" android:layout_width="fill_parent" android:layout_height="@dimen/charging_flow_view_white_height" android:layout_marginTop="@dimen/charging_flow_view_icon_padding_top" android:layout_marginBottom="@dimen/charging_flow_view_icon_padding_bottom" />
+    <ImageView android:id="@id/icon" android:background="@drawable/app_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/charging_flow_view_icon_padding_left" />
+    <TextView android:textSize="@dimen/charging_flow_view_icon_text_size" android:textColor="@color/charging_flow_view_icon_text_color" android:ellipsize="end" android:id="@id/cca" android:paddingTop="@dimen/charging_flow_view_text_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/charging_flow_view_icon_padding_right" android:text="@string/charging_flow_view_content" android:maxLines="1" android:layout_toRightOf="@id/icon" />
+    <TextView android:textSize="@dimen/charging_flow_view_end_time_size" android:textColor="@color/charging_flow_view_end_time_color" android:id="@id/charging_end_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_toRightOf="@id/cca" android:layout_alignBottom="@id/cca" />
+</RelativeLayout>

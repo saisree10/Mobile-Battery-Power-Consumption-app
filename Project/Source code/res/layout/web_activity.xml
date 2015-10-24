@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:power="http://schemas.android.com/apk/res-auto">
+    <com.dianxinos.powermanager.ui.MainTitle android:id="@id/main_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/main_title_margin_bottom" power:title_text=" " />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <WebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:id="@id/process_bar" android:layout_width="fill_parent" android:layout_height="4.0dip" android:max="100" android:progressDrawable="@drawable/web_progressbar_style" style="?android:attr/progressBarStyleHorizontal" />
+    </FrameLayout>
+</LinearLayout>

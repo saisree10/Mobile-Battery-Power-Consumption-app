@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@*android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/hot_qa_question_size" android:textColor="@color/hot_qa_question_color" android:id="@id/ask_text" android:paddingLeft="@dimen/hot_qa_title_padding_left" android:paddingTop="@dimen/hot_qa_button_margin" android:paddingRight="@dimen/hot_qa_title_padding_left" android:paddingBottom="@dimen/hot_qa_title_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/hot_qa_question_size" android:textColor="@*android:color/white" android:id="@id/ans_text" android:paddingLeft="@dimen/hot_qa_answer_padding_left" android:paddingRight="@dimen/hot_qa_title_padding_left" android:paddingBottom="@dimen/hot_qa_button_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/hot_qa_answer_line_space" />
+</LinearLayout>

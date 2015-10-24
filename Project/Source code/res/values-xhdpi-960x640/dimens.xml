@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dx_batterygraph_normal_top">7.5dip</dimen>
+    <dimen name="big_digit">40.0sp</dimen>
+    <dimen name="digital_unit_margin_left">5.0dip</dimen>
+    <dimen name="health_charging_graph_margin_top">0.0dip</dimen>
+    <dimen name="health_charging_digital_time_margin_top">30.0dip</dimen>
+    <dimen name="health_charging_explanation_margin_top">15.0dip</dimen>
+    <dimen name="calendar_paper_title_margin_top">5.0dip</dimen>
+    <dimen name="calendar_paper_margin_bottom">5.0dip</dimen>
+    <dimen name="splash_title_text_size">30.0sp</dimen>
+    <dimen name="settings_show_volunteer_title_margin_top">15.0dip</dimen>
+    <dimen name="settings_show_volunteer_country_margin_top">12.0dip</dimen>
+    <dimen name="settings_show_volunteer_margin_top">12.0dip</dimen>
+    <dimen name="settings_show_volunteer_content_margin_top">10.0dip</dimen>
+    <dimen name="battery_theme_change_button_padding_bottom">10.0dip</dimen>
+    <dimen name="battery_theme_pick_area_height">110.0dip</dimen>
+    <dimen name="battery_theme_pick_area_title_text_padding_top">10.0dip</dimen>
+    <dimen name="battery_theme_pick_area_title_text_padding_left">12.0dip</dimen>
+    <dimen name="battery_skin_pre_padding_top_bottom">15.0dip</dimen>
+    <dimen name="booster_subtitle_width">135.0dip</dimen>
+</resources>

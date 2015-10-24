@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="personal_center_achievement_title">
+        <item>Carregadores de Saúde</item>
+        <item>Funções inteligentes Desbloqueado</item>
+        <item>Skins coletadas da bateria</item>
+    </string-array>
+    <string-array name="personal_center_achievement_sub_title">
+        <item>Bem feito Keep it up!</item>
+        <item>Use DU Coins para desbloquear.</item>
+        <item>Visite Bateria Loja pele.</item>
+    </string-array>
+    <string-array name="coin_introduce_question">
+        <item>O que são as DU Coins?</item>
+        <item>Como é que as DU Coins são usadas?</item>
+        <item>Como ganho DU Coins?</item>
+        <item>Posso ganhar DU Coins ao desinstalar e instalar a mesma aplicação várias vezes?</item>
+        <item>Existe um limite de acumulação de DU Coins?</item>
+        <item>Instalei com êxito uma aplicação, mas não recebi DU Coins. Por que motivo aconteceu isto?</item>
+    </string-array>
+    <string-array name="coin_introduce_answer">
+        <item>AS DU Coins são um incentivo para os utilizadores do DU Battery Saver. Os utilizadores podem ganhar DU Coins através da transferência de aplicações que geram DU Coins na caixa de ferramentas. As DU Coins podem ser trocadas por funcionalidades pagas no valor de 2,99 $.</item>
+        <item>As DU Coins podem ser trocadas por funcionalidades pagas no valor de 2,99 $. Desse modo, não precisa de pagar para desfrutar da versão PRO do serviço de poupança de energia profissional.</item>
+        <item>Abra a caixa de ferramentas do DU Battery Saver e, em seguida, procure e transfira aplicações marcadas com o símbolo de DU Coins. Depois de a instalação ter sido efetuada com êxito, obterá as DU Coins correspondentes.</item>
+        <item>Só pode obter DU Coins uma vez com a mesma aplicação.</item>
+        <item>Sim. Para evitar a manipulação das DU Coins, definimos um limite máximo diário de DU Coins, o que significa que só pode obter um máximo de xx DU Coins por dia.</item>
+        <item>Primeiro, certifique-se de que instalou uma aplicação que gera DU Coins. Segundo, as recompensas em DU Coins precisam de ser autenticadas através da Internet. Desta forma, depois de a instalação ter sido efetuada, aguarde pela notificação de recompensa de DU Coins enviada pelo DU Battery Saver (demora cerca de 1 minutos). Depois da instalação, não desligue imediatamente a Internet, para evitar falhas.</item>
+    </string-array>
+    <string-array name="update_tips_item_des">
+        <item>-Otimização da interface de utilizador.</item>
+        <item>-Bugs corrigidos</item>
+    </string-array>
+    <string-array name="update_tips_item_des_paid">
+        <item>-Bugs corrigidos</item>
+    </string-array>
+</resources>

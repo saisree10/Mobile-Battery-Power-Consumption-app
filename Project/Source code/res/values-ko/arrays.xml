@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="personal_center_achievement_title">
+        <item>건강 충전기</item>
+        <item>잠금 해제 스마트 기능</item>
+        <item>배터리 스킨 수집</item>
+    </string-array>
+    <string-array name="personal_center_achievement_sub_title">
+        <item>잘 했어! 그것을 유지!</item>
+        <item>더 많은 잠금을 해제하기 위해 포인트를 사용.</item>
+        <item>배터리 피부 숍을 방문하십시오.</item>
+    </string-array>
+    <string-array name="coin_introduce_question">
+        <item>DU Coins란 무엇입니까?</item>
+        <item>DU Coins를 어떻게 사용합니까?</item>
+        <item>DU Coins는 어떻게 적립하나요?</item>
+        <item>동일한 앱을 제거한 후 다시 설치하는 방법을 통해 DU Coins를 여러 번 적립할 수 있나요?</item>
+        <item>DU Coins 누적량에 제한이 있나요?</item>
+        <item>앱을 설치했지만 DU Coins가 적립되지 않는 이유는 무엇인가요?</item>
+    </string-array>
+    <string-array name="coin_introduce_answer">
+        <item>DU Coins는 DU Battery Saver 사용자를 위한 인센티브입니다. 사용자는 도구모음에서 DU Coins를 생성하는 앱을 다운로드하여 DU Coins를 적립할 수 있습니다. DU Coins는 2.99달러 상당의 유료 기능에 사용할 수 있습니다.</item>
+        <item>DU Coins는 2.99달러 상당의 유료 기능에 사용할 수 있으므로, 현금 결제 없이도 프로페셔널 PRO 버전의 전원 절약 서비스를 이용하실 수 있습니다.</item>
+        <item>DU Battery Saver 도구모음에서 DU Coins 기호가 표시된 앱을 찾아 다운로드합니다. 설치가 완료되면 해당하는 DU Coins를 적립할 수 있습니다.</item>
+        <item>DU Coins 적립은 동일한 앱에 대해 한 번만 가능합니다.</item>
+        <item>예. DU Coins 조작 방지를 위해 하루에 적립할 수 있는 DU Coins가 제한되어 있습니다. 현재 귀하는 일일 최대 xx DU Coins를 적립하실 수 있습니다.</item>
+        <item>먼저 DU Coins를 생성하는 앱을 설치했는지 확인합니다. DU Coins 적립은 인터넷을 통해 인증되어야 하므로, 설치가 완료된 후 DU Batter Saver에서 전송되는 DU Coins 적립 알림을 기다립니다(약 1분 소요). 오류가 발생하지 않도록 설치가 완료된 후에도 인터넷 연결을 바로 해제하지 마십시오.</item>
+    </string-array>
+    <string-array name="update_tips_item_des">
+        <item>-사용자 인터페이스 최적화!</item>
+        <item>-수정 된 버그</item>
+    </string-array>
+    <string-array name="update_tips_item_des_paid">
+        <item>-수정 된 버그</item>
+    </string-array>
+</resources>

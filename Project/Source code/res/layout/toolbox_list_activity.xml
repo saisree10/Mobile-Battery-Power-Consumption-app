@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/contet_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:visibility="gone" layout="@layout/network_bar" />
+    <include layout="@layout/coin_balance_bar" />
+    <ListView android:id="@*android:id/list" android:fadingEdge="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/toolbox_listview_divider" android:dividerHeight="@dimen/toolbox_apps_listview_item_divider_height" />
+    <LinearLayout android:orientation="vertical" android:id="@*android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="100.0">
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="@integer/toolbox_no_apps_status_image_percent">
+            <ImageView android:id="@id/toolbox_no_apps_status_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/toolbox_empty_toolbox" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="@integer/toolbox_no_apps_des_percent">
+            <TextView android:textSize="@dimen/toolbox_no_apps_des_a_text_size" android:textColor="@color/toolbox_no_apps_des_a_text_color" android:gravity="center" android:id="@id/toolbox_no_apps_des_a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/toolbox_no_apps_des_a_text_margin_top" android:text="@string/toolbox_no_apps_des_toolbox_empty_a" />
+            <TextView android:textSize="@dimen/toolbox_no_apps_des_b_text_size" android:textColor="@color/toolbox_no_apps_des_b_text_color" android:gravity="center" android:id="@id/toolbox_no_apps_des_b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/toolbox_no_apps_des_b_text_margin_top" android:text="@string/toolbox_no_apps_des_toolbox_empty_b" android:singleLine="false" />
+            <Button android:textSize="@dimen/toolbox_no_apps_refresh_button_text_size" android:textColor="@color/toolbox_no_apps_refresh_button_text_color" android:id="@id/toolbox_no_apps_refresh_button" android:layout_width="@dimen/toolbox_no_apps_refresh_button_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/toolbox_no_apps_refresh_button_margin_top" android:text="@string/toolbox_no_apps_refresh_button_text" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

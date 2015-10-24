@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/cpu_dialog_blank_area" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:weightSum="100.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/cpu_settings" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="90.0">
+        <TextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hw_set_cpu_title" style="@style/common_dialog_title" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/item_value_lists" android:background="@drawable/pop_box_b_list" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/setting_item1" android:layout_width="fill_parent" style="@style/common_dialog_list_item_style">
+                <TextView android:textAppearance="@style/common_dialog_content_text" android:ellipsize="marquee" android:id="@id/item_title1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/hw_cpu_frequency_normal" android:singleLine="true" android:layout_weight="1.0" />
+                <ImageView android:id="@id/item_icon1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mode_on" />
+            </LinearLayout>
+            <ImageView android:background="@drawable/setting_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/setting_item2" android:layout_width="fill_parent" style="@style/common_dialog_list_item_style">
+                <TextView android:textAppearance="@style/common_dialog_content_text" android:ellipsize="marquee" android:id="@id/item_title2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/hw_cpu_frequency_mid" android:singleLine="true" android:layout_weight="1.0" />
+                <ImageView android:id="@id/item_icon2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mode_on" />
+            </LinearLayout>
+            <ImageView android:background="@drawable/setting_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/setting_item3" android:layout_width="fill_parent" style="@style/common_dialog_list_item_style">
+                <TextView android:textAppearance="@style/common_dialog_content_text" android:ellipsize="marquee" android:id="@id/item_title3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/hw_cpu_frequency_low" android:singleLine="true" android:layout_weight="1.0" />
+                <ImageView android:id="@id/item_icon3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mode_on" />
+            </LinearLayout>
+            <ImageView android:background="@drawable/setting_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+            <TextView android:textSize="@dimen/small_tips_font" android:textColor="@color/save_power_summary_title_color_red" android:padding="@dimen/dialog_mode_padding_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hw_setting_cpu_tips" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/msg_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/msg_box_text_size" android:textColor="@color/msg_box_text_color" android:ellipsize="end" android:id="@id/msg_text" android:background="@color/msg_box_text_bg" android:paddingLeft="@dimen/msg_box_text_padding_left_right" android:paddingTop="@dimen/msg_box_text_padding_top_bottom" android:paddingRight="@dimen/msg_box_text_padding_left_right" android:paddingBottom="@dimen/msg_box_text_padding_top_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/msg_box_text_margin_left_right" android:layout_marginRight="@dimen/msg_box_text_margin_left_right" android:maxLines="2" />
+        <TextView android:textSize="@dimen/msg_box_time_size" android:textColor="@color/msg_box_time_color" android:id="@id/msg_time" android:paddingLeft="@dimen/msg_box_time_padding_left" android:paddingTop="@dimen/msg_box_text_padding_top_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <ImageView android:id="@id/mask" android:background="@drawable/msg_box_mask" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@id/msg_icon" android:layout_alignTop="@id/msg_icon" android:layout_alignRight="@id/msg_icon" android:layout_alignBottom="@id/msg_icon" />
+    <ImageView android:id="@id/newmsg_tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/msg_box_new" android:scaleType="centerInside" />
+    <ImageView android:id="@id/has_read" android:background="@color/msg_box_has_read_mask" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignLeft="@id/msg_icon" android:layout_alignTop="@id/msg_icon" android:layout_alignRight="@id/msg_icon" android:layout_alignBottom="@id/msg_icon" />
+</RelativeLayout>

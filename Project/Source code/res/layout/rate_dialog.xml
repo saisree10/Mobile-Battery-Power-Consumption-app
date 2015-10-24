@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dialog_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/batterycenter_bkg" android:paddingLeft="@dimen/rate_diaglog_margin_left_right" android:paddingRight="@dimen/rate_diaglog_margin_left_right" android:layout_width="@dimen/rate_diaglog_width" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/rate_diaglog_star_margin_top" android:layout_marginBottom="@dimen/rate_diaglog_star_margin_bottom">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rating_dialog_star" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rating_dialog_star" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rating_dialog_star" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rating_dialog_star" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rating_dialog_star" />
+        </LinearLayout>
+        <ImageView android:background="@color/rate_dialog_divider" android:layout_width="fill_parent" android:layout_height="@dimen/rate_diaglog_divider_height" />
+        <TextView android:textSize="@dimen/function_purchase_content_text_size" android:textColor="@color/main_title_color" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/rate_diaglog_title_margin_top" android:singleLine="true" />
+        <TextView android:textSize="@dimen/get_rewarded_declare_text" android:textColor="@color/get_rewarded_declare" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/rate_diaglog_content_margin_top" android:text="@string/rate_content" android:singleLine="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/go_rate" android:background="@drawable/about_button_rate_rate" android:layout_width="@dimen/rate_diaglog_button_width" android:layout_height="@dimen/diag_ad_dialog_button_height" android:layout_marginTop="@dimen/rate_diaglog_button_margin_top_bottom" android:layout_marginRight="@dimen/diag_ad_dialog_button_margin_left_right" android:layout_marginBottom="@dimen/rate_diaglog_button_margin_top_bottom">
+                <TextView android:textSize="@dimen/about_button_text_size" android:textStyle="bold" android:textColor="@color/get_rewarded_ignore_button" android:gravity="center" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rate_button_go_rate" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/later" android:background="@drawable/power_analysis_button" android:layout_width="@dimen/rate_diaglog_button_width" android:layout_height="@dimen/diag_ad_dialog_button_height" android:layout_marginLeft="@dimen/diag_ad_dialog_button_margin_left_right" android:layout_marginTop="@dimen/rate_diaglog_button_margin_top_bottom" android:layout_marginBottom="@dimen/rate_diaglog_button_margin_top_bottom">
+                <TextView android:textSize="@dimen/about_button_text_size" android:textColor="@color/get_rewarded_ignore_button" android:gravity="center" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rate_button_later" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

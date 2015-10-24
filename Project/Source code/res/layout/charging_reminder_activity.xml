@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/mode_list_normal_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:power="http://schemas.android.com/apk/res-auto">
+    <com.dianxinos.powermanager.ui.MainTitle android:id="@id/main_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/main_title_margin_bottom" power:title_text="@string/app_setting_charging_reminder_title" />
+    <ScrollView android:background="@color/mode_list_normal_bg" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:weightSum="100.0">
+            <LinearLayout android:orientation="vertical" android:id="@id/setting_items" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="88.0">
+                <com.dianxinos.powermanager.ui.DxSwitchPreference android:id="@id/charging_begin_setting" android:layout_marginTop="@dimen/list_item_margin_top_bottom" power:title="@string/app_setting_charging_ringtone" style="@style/settings_layout_style" />
+                <ImageView android:background="@drawable/setting_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+                <com.dianxinos.powermanager.ui.DxSwitchPreference android:id="@id/rl_charging_done_setting" power:title="@string/charging_done_lable" style="@style/settings_layout_style" />
+                <ImageView android:background="@drawable/setting_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+                <com.dianxinos.powermanager.ui.DxSwitchPreference android:id="@id/auto_open_charging_setting" power:title="@string/auto_open_when_charge_string" style="@style/settings_layout_style" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

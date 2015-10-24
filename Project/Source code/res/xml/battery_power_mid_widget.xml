@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:minWidth="128.0dip" android:minHeight="59.0dip" android:initialLayout="@layout/battery_power_mid_widget" android:previewImage="@drawable/widget_battery_80_blue"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

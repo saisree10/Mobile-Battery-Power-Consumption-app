@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="personal_center_achievement_title">
+        <item>Phụ trách sức khỏe</item>
+        <item>Thông minh quan trọng mở khóa</item>
+        <item>Thu thập các tế bào da</item>
+    </string-array>
+    <string-array name="personal_center_achievement_sub_title">
+        <item>Tuyệt vời giữ!</item>
+        <item>Sử dụng DU Coins để mở khóa.</item>
+        <item>Vào các cửa hàng da.</item>
+    </string-array>
+    <string-array name="coin_introduce_question">
+        <item>DU Coins là gì?</item>
+        <item>DU Coins được sử dụng như thế nào?</item>
+        <item>Làm thế nào để kiếm DU Coins?</item>
+        <item>Tôi có thể kiếm DU Coins bằng cách gỡ cài đặt và cài đặt lại cùng một ứng dụng nhiều lần không?</item>
+        <item>Có giới hạn tích lũy DU Coins không?</item>
+        <item>Tôi đã cài đặt thành công một ứng dụng nhưng không nhận được DU Coins nào. Tại sao thế?</item>
+    </string-array>
+    <string-array name="coin_introduce_answer">
+        <item>DU Coins là phần thưởng dành cho người dùng DU Battery Saver. Người dùng có thể kiếm DU Coins bằng cách tải về ứng dụng tạo DU Coins trong Hộp công cụ. DU Coins có thể được dùng để đổi lấy các tính năng trả phí trị giá $2,99.</item>
+        <item>DU Coins có thể được dùng để đổi lấy các tính năng trả phí trị giá $2,99, nên bạn không cần trả tiền để sử dụng phiên bản PRO của dịch vụ tiết kiệm pin.</item>
+        <item>Hãy mở Hộp công cụ DU Battery Saver, sau đó tìm và tải về các ứng dụng có biểu tượng DU Coins. Sau khi cài đặt thành công, bạn sẽ nhận được số DU Coins tương ứng.</item>
+        <item>Bạn chỉ có thể nhận DU Coins một lần từ cùng một ứng dụng.</item>
+        <item>Có. Để tránh gian lận DU Coins, chúng tôi đã đặt giới hạn DU Coins tối đa trong một ngày, nghĩa là hiện tại bạn chỉ có thể nhận tối đa xx DU Coins mỗi ngày.</item>
+        <item>Thứ nhất, hãy đảm bảo bạn đã cài đặt một ứng dụng tạo DU Coins. Thứ hai, DU Coins thưởng cần được chứng thực qua Internet nên sau khi cài đặt thành công, vui lòng chờ thông báo DU Coins thưởng gửi đến bạn từ DU Battery Saver (mất khoảng 1 phút). Đừng ngắt kết nối Internet ngay sau khi cài đặt để tránh bị lỗi.</item>
+    </string-array>
+    <string-array name="update_tips_item_des">
+        <item>-Tối ưu hóa giao diện người dùng!</item>
+        <item>-Lỗi cố định</item>
+    </string-array>
+    <string-array name="update_tips_item_des_paid">
+        <item>-Lỗi cố định</item>
+    </string-array>
+</resources>

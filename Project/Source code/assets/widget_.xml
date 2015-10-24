@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <widget_style style1="0" />
+
+    <widget_theme_type type1="0" />
+
+ <!-- 预览图的drawble -->
+    <theme_preview img1="gowidget_preview" />
+ <!-- widget名称string -->
+    <theme_title title1="mid_widget_name" />
+
+</resources>

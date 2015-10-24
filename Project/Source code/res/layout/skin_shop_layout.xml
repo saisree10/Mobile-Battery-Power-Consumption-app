@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/mode_list_item_bkg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:power="http://schemas.android.com/apk/res-auto">
+    <com.dianxinos.powermanager.ui.MainTitle android:id="@id/main_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/main_title_margin_bottom" power:title_text="@string/skin_shop_title" />
+    <com.dianxinos.powermanager.skinshop.SkinShopViewPager android:id="@id/viewPager1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/main_title" />
+</RelativeLayout>

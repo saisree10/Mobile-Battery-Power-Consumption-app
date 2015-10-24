@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/mode_scrollview_item" android:paddingTop="@dimen/dialog_two_button_padding" android:paddingBottom="@dimen/dialog_two_button_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/dialog_list_text_size" android:gravity="left|center" android:id="@id/itemname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/value" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:lineSpacingExtra="0.0dip" />
+    <TextView android:textSize="@dimen/dialog_list_text_size" android:gravity="right|center" android:id="@id/value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/mode_status_show_item_value_maxwidth" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

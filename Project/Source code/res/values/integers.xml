@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="toolbox_no_apps_status_image_percent">50</integer>
+    <integer name="toolbox_no_apps_des_percent">50</integer>
+    <integer name="shadow_blink_interval">1000</integer>
+    <integer name="feature_none">0x0</integer>
+    <integer name="feature_cpu">0x1</integer>
+    <integer name="feature_settings">0x2</integer>
+    <integer name="feature_batterylog">0x4</integer>
+    <integer name="feature_settings_and_usage">0x6</integer>
+    <integer name="feature_lowbattery">0x8</integer>
+    <integer name="feature_cpu_and_lowbattery">0x9</integer>
+    <integer name="feature_ringtone_reminder">0x10</integer>
+    <integer name="feature_check_update">0x20</integer>
+    <integer name="feature_batterylog_and_check_update">0x24</integer>
+    <integer name="feature_check_premium">0x40</integer>
+    <integer name="feature_check_update_and_premium">0x60</integer>
+    <integer name="feature_check_update_and_premium_and_batterylog">0x64</integer>
+    <integer name="feature_check_update_and_premium_and_licensing">0xe0</integer>
+    <integer name="feature_check_premium_and_licensing">0xc0</integer>
+    <integer name="home_top_area_weight">435</integer>
+    <integer name="home_mid_area_weight">160</integer>
+    <integer name="home_bottom_area_weight">405</integer>
+    <integer name="diagnostic_top_area_weight">27</integer>
+    <integer name="diagnostic_bottom_area_weight">73</integer>
+    <integer name="feedback_dialog_input_edit_gravity">51</integer>
+    <integer name="feedback_dialog_contact_edit_gravity">19</integer>
+    <integer name="new_mode_edit_gravity">19</integer>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="top|left|center" android:id="@id/capacity_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" />
+    <ImageView android:id="@id/new_battery_shape" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:gravity="center_vertical" android:paddingTop="@dimen/dx_batterygraph_sign_margin_top_h" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="top|right|center" android:id="@id/charging_sign" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/health_charging_graph_sign_margin" android:src="@drawable/battery_charging" android:scaleType="center" />
+        <TextView android:textSize="@dimen/dx_batterygraph_text_size" android:textColor="@color/local_white" android:layout_gravity="left|center" android:id="@id/number_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/health_charging_graph_digital_margin" android:shadowColor="@color/battery_percent_shadow" android:shadowDx="0.0" android:shadowDy="-1.0" android:shadowRadius="1.0" />
+    </FrameLayout>
+</merge>

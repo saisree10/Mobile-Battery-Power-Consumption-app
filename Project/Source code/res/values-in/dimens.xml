@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="health_charging_cycle_text_max_width">80.0dip</dimen>
+    <dimen name="diagnostic_item_width">68.0dip</dimen>
+    <dimen name="tips_subtitle_text_size">14.0sp</dimen>
+    <dimen name="settings_show_volunteer_content_text_size">14.0sp</dimen>
+</resources>

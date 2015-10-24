@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dx_batterygraph_custom_width">82.0dip</dimen>
+    <dimen name="slide_zero_des_title_margin_top">31.0dip</dimen>
+    <dimen name="skin_shop_slide_zero_padding_left">20.0dip</dimen>
+    <dimen name="skin_shop_item_margin_left">22.0dip</dimen>
+    <dimen name="skin_shop_item_margin_right">22.0dip</dimen>
+    <dimen name="skin_shop_banner_height">116.0dip</dimen>
+    <dimen name="slots_pic_width">56.5dip</dimen>
+    <dimen name="slots_pic_height">37.0dip</dimen>
+    <dimen name="wheel_view_rl_margin_top">20.0dip</dimen>
+    <dimen name="whats_new_lottery_subtitle">68.0dip</dimen>
+    <dimen name="booster_subtitle_width">135.0dip</dimen>
+    <dimen name="whats_new_padding_left_right">10.0dip</dimen>
+    <dimen name="whats_new_card_margin_top">18.0dip</dimen>
+    <dimen name="whats_new_card_margin_bottom">14.0dip</dimen>
+    <dimen name="whats_new_dec_line_space">2.0dip</dimen>
+    <dimen name="whats_new_other_title_margin_top">10.0dip</dimen>
+    <dimen name="whats_new_other_content_margin_top">2.0dip</dimen>
+    <dimen name="com_facebook_picker_divider_width">2.0px</dimen>
+</resources>

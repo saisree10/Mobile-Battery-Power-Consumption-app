@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/contet_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:power="http://schemas.android.com/apk/res-auto">
+    <com.dianxinos.powermanager.ui.MainTitle android:id="@id/main_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/main_title_margin_bottom" power:title_text="@string/charger_save_title" />
+    <com.dianxinos.powermanager.chargingrecord.CalendarView android:id="@id/charging_record_calendar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/calendar_paper_title_margin_top" android:layout_marginBottom="@dimen/calendar_paper_margin_bottom" android:baselineAligned="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/calendar_paper_title_text_size" android:textColor="@color/local_white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/charger_record_common" />
+            <TextView android:textSize="@dimen/calendar_paper_text_size" android:textColor="@color/calendar_normal_bg_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/charging_record_normal" android:background="@drawable/charge_record_charge_times_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/calendar_paper_title_margin_bottom" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/calendar_paper_title_text_size" android:textColor="@color/local_white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/charger_record_health" />
+            <TextView android:textSize="@dimen/calendar_paper_text_size" android:textColor="@color/calendar_health_bg_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/charging_record_health" android:background="@drawable/charge_record_charge_times_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/calendar_paper_title_margin_bottom" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/calendar_tips_text_size" android:textColor="@color/calendar_tips_text_color" android:id="@id/charge_record_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:text="@string/charger_record_tips" />
+</LinearLayout>

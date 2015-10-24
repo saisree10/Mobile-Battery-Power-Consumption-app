@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/origin_image" android:background="@*android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix" />
+        <com.dianxinos.powermanager.batterytheme.CropMaskImage android:id="@id/battery_mask" android:background="@drawable/battery_mask_h" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:paddingLeft="@dimen/battery_theme_crop_cancel_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/battery_theme_crop_title_size" android:textColor="@color/battery_theme_title_color" android:id="@id/title" android:paddingTop="@dimen/battery_theme_crop_cancel_padding" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/custom_battery_theme_crop_title" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/cancel_cross" android:paddingTop="@dimen/battery_theme_crop_cancel_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/crop_image_cancel_button" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/bottom_button_area" android:background="@color/mode_list_normal_bg" android:layout_width="fill_parent" android:layout_height="@dimen/battery_theme_crop_finish_button_bkg_height">
+        <Button android:textSize="@dimen/battery_theme_crop_title_size" android:textColor="@color/battery_theme_title_color" android:gravity="center" android:id="@id/next_finish_button" android:background="@drawable/crop_image_finish_button_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/custom_battery_theme_next" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

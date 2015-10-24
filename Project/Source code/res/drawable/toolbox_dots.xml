@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="150" android:drawable="@drawable/toolbox_dots_1" />
+    <item android:duration="150" android:drawable="@drawable/toolbox_dots_2" />
+    <item android:duration="150" android:drawable="@drawable/toolbox_dots_3" />
+    <item android:duration="150" android:drawable="@drawable/toolbox_dots_4" />
+    <item android:duration="150" android:drawable="@drawable/toolbox_dots_5" />
+    <item android:duration="150" android:drawable="@drawable/toolbox_dots_6" />
+    <item android:duration="150" android:drawable="@drawable/toolbox_dots_7" />
+    <item android:duration="150" android:drawable="@drawable/toolbox_dots_8" />
+    <item android:duration="150" android:drawable="@drawable/toolbox_dots_9" />
+    <item android:duration="150" android:drawable="@drawable/toolbox_dots_10" />
+</animation-list>

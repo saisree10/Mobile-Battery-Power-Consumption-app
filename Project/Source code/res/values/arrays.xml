@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stylepreviewlist">
+        <item>gowidget_preview</item>
+    </string-array>
+    <string-array name="stylenamelist">
+        <item>mid_widget_name</item>
+    </string-array>
+    <integer-array name="styletypelist">
+        <item>0</item>
+    </integer-array>
+    <integer-array name="rowlist">
+        <item>1</item>
+    </integer-array>
+    <integer-array name="columnlist">
+        <item>4</item>
+    </integer-array>
+    <string-array name="layoutidlist">
+        <item>go_power_mid_widget</item>
+    </string-array>
+    <integer-array name="minWidth">
+        <item>292</item>
+    </integer-array>
+    <integer-array name="minHeight">
+        <item>73</item>
+    </integer-array>
+    <string-array name="personal_center_achievement_title">
+        <item>Healthy Charges</item>
+        <item>Smart Features Unlocked</item>
+        <item>Battery Skins Collected</item>
+    </string-array>
+    <string-array name="personal_center_achievement_sub_title">
+        <item>Well done! Keep it up!</item>
+        <item>Use DU Coins to unlock more.</item>
+        <item>Visit Battery Skin Shop.</item>
+    </string-array>
+    <string-array name="coin_introduce_question">
+        <item>﻿﻿What are DU Coins?</item>
+        <item>How are DU Coins used?</item>
+        <item>How do I earn DU Coins?</item>
+        <item>Can I win DU Coins by uninstalling and reinstalling the same app multiple times?</item>
+        <item>Is there a DU Coins accumulation limit?</item>
+        <item>"I successfully installed an app but didn't get any points. Why is that?"</item>
+    </string-array>
+    <string-array name="coin_introduce_answer">
+        <item>DU Coins are an incentive for DU Battery Saver users. Users can earn DU Coins by downloading DU Coins-generating apps in the Toolbox. DU Coins can be redeemed against paid features worth $2.99.</item>
+        <item>"DU Coins can be redeemed against paid features worth $2.99, so you don't need to pay to enjoy the professional PRO version power-saving service."</item>
+        <item>Open the DU Battery Saver Toolbox, then find and download apps marked with the points symbol. After successful installation you will obtain the corresponding DU Coins.</item>
+        <item>No. DU Coins can only be obtained once from the same app.</item>
+        <item>Yes. In order to prevent tampering with DU Coins, we have set a maximum daily points limit, which means that currently you can only obtain a maximum of xx DU Coins per day.</item>
+        <item>First, make sure that you installed a DU Coins-generating app. Second, point awards need to be authenticated over the Internet, so after successful installation, please wait for the point award notification to be sent by DU Battery Saver (takes about 1 minutes). Do not disconnect from the Internet straight after installation in order to prevent faults.</item>
+    </string-array>
+    <string-array name="update_tips_item_des">
+        <item>-Optimization of User Interface!</item>
+        <item>-Bugs fixed</item>
+    </string-array>
+    <string-array name="update_tips_item_des_paid">
+        <item>-Bugs fixed</item>
+    </string-array>
+    <string-array name="time_format_24">
+        <item>00:00</item>
+        <item></item>
+        <item>06:00</item>
+        <item></item>
+        <item>12:00</item>
+        <item></item>
+        <item>18:00</item>
+        <item></item>
+        <item>00:00</item>
+        <item></item>
+        <item>06:00</item>
+        <item></item>
+        <item>12:00</item>
+        <item></item>
+        <item>18:00</item>
+        <item></item>
+        <item>24:00</item>
+    </string-array>
+    <string-array name="time_format_12">
+        <item>12:00 AM</item>
+        <item></item>
+        <item>06:00 AM</item>
+        <item></item>
+        <item>12:00 PM</item>
+        <item></item>
+        <item>06:00 PM</item>
+        <item></item>
+        <item>12:00 AM</item>
+        <item></item>
+        <item>06:00 AM</item>
+        <item></item>
+        <item>12:00 PM</item>
+        <item></item>
+        <item>06:00 PM</item>
+        <item></item>
+        <item>12:00 AM</item>
+    </string-array>
+</resources>

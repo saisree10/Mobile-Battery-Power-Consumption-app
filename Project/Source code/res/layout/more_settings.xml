@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:power="http://schemas.android.com/apk/res-auto">
+    <com.dianxinos.powermanager.ui.MainTitle android:id="@id/main_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/main_title_margin_bottom" power:title_text="@string/tab_more" />
+    <ScrollView android:background="@color/mode_list_normal_bg" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:weightSum="100.0">
+            <LinearLayout android:orientation="vertical" android:id="@id/setting_items" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="88.0">
+                <com.dianxinos.powermanager.ui.DxGotoPreference android:id="@id/switches_setting" android:layout_marginTop="@dimen/list_item_margin_top_bottom" power:title="@string/settings_switches" power:summary="@string/settings_onekey_control_des" power:text_size="@dimen/list_item_content_text_size" style="@style/settings_layout_style" />
+                <ImageView android:background="@drawable/setting_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+                <com.dianxinos.powermanager.ui.DxGotoPreference android:id="@id/protected_app_setting" android:layout_marginBottom="@dimen/list_item_margin_top_bottom" power:title="@string/app_settings_protected" power:summary="@string/app_settings_protected_detail" style="@style/settings_layout_style" />
+                <TextView android:textSize="@dimen/list_item_content_text_size" android:textColor="@color/mode_content_color" android:gravity="left" android:paddingBottom="@dimen/setting_style_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_setting_notification" />
+                <com.dianxinos.powermanager.ui.DxGotoPreference android:id="@id/no_disturb" power:title="@string/settings_no_disturb" power:summary="@string/mode_newmode_off" style="@style/settings_layout_style" />
+                <ImageView android:background="@drawable/setting_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+                <com.dianxinos.powermanager.ui.DxGotoPreference android:id="@id/charge_reminder" power:title="@string/app_setting_charging_reminder_title" style="@style/settings_layout_style" />
+                <ImageView android:background="@drawable/setting_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+                <com.dianxinos.powermanager.ui.DxSwitchPreference android:id="@id/low_battery_reminder" power:title="@string/app_setting_lowbattery_ringtong" style="@style/settings_layout_style" />
+                <ImageView android:background="@drawable/setting_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+                <com.dianxinos.powermanager.ui.DxSwitchPreference android:id="@id/smart_notification_ringtong_settings" android:layout_marginBottom="@dimen/list_item_margin_top_bottom" power:title="@string/app_setting_switchmode_notification" style="@style/settings_layout_style" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/list_item_content_text_size" android:textColor="@color/mode_content_color" android:gravity="left" android:paddingBottom="@dimen/setting_style_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/more_settings_custom_settings" />
+                    <ImageView android:id="@id/battery_theme_new" android:background="@drawable/new_sign" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/settings_battery_theme_new_margin" android:scaleType="centerInside" />
+                </LinearLayout>
+                <com.dianxinos.powermanager.ui.DxGotoPreference android:id="@id/battery_theme" power:title="@string/more_settings_custom_settings_battery_theme" style="@style/settings_layout_style" />
+                <ImageView android:background="@drawable/setting_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+                <com.dianxinos.powermanager.ui.DxGotoPreference android:id="@id/power_indicator" android:layout_marginBottom="@dimen/list_item_margin_top_bottom" power:title="@string/app_settings_notification_title" style="@style/settings_layout_style" />
+                <TextView android:textSize="@dimen/list_item_content_text_size" android:textColor="@color/mode_content_color" android:gravity="left" android:paddingBottom="@dimen/setting_style_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_setting_state" />
+                <com.dianxinos.powermanager.ui.DxSwitchPreference android:id="@id/celsius_fahrenheit" power:title="@string/celsius_fahrenheit_title" style="@style/settings_layout_style" />
+                <ImageView android:id="@id/celsius_fahrenheit_divider" android:background="@drawable/setting_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+                <com.dianxinos.powermanager.ui.DxSwitchPreference android:id="@id/floating_show_setting" power:title="@string/sleep_floating_tips_show" style="@style/settings_layout_style" />
+                <ImageView android:background="@drawable/setting_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+                <com.dianxinos.powermanager.ui.DxGotoPreference android:id="@id/create_shortcut_setting" android:layout_marginBottom="@dimen/list_item_margin_top_bottom" power:title="@string/settings_create_optimize_shortcut" style="@style/settings_layout_style" />
+                <TextView android:textSize="@dimen/list_item_content_text_size" android:textColor="@color/mode_content_color" android:gravity="left" android:paddingBottom="@dimen/setting_style_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_setting_support" />
+                <com.dianxinos.powermanager.ui.DxGotoPreference android:id="@id/settings_user_tips" power:title="@string/user_tips_main_title_text" style="@style/settings_layout_style" />
+                <ImageView android:background="@drawable/setting_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+                <com.dianxinos.powermanager.ui.DxGotoPreference android:id="@id/settings_feed_back" power:title="@string/menu_feedback" style="@style/settings_layout_style" />
+                <ImageView android:background="@drawable/setting_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+                <com.dianxinos.powermanager.ui.DxGotoPreference android:id="@id/settings_update" power:title="@string/menu_update" style="@style/settings_layout_style" />
+                <ImageView android:background="@drawable/setting_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+                <com.dianxinos.powermanager.ui.DxGotoPreference android:id="@id/settings_volunteer" android:layout_marginBottom="@dimen/list_item_margin_top_bottom" power:title="@string/show_volunteer" style="@style/settings_layout_style" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

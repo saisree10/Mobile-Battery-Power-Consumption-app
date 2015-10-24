@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/mode_list_normal_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:power="http://schemas.android.com/apk/res-auto">
+    <com.dianxinos.powermanager.ui.MainTitle android:id="@id/main_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/main_title_margin_bottom" power:title_text="@string/smart_settings_switchmode_time_mode" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+        <ListView android:id="@id/app_white_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/mode_list_item_bkg" android:cacheColorHint="#00000000" android:divider="@drawable/setting_divider" android:fastScrollEnabled="true" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/local_white" android:gravity="center" android:id="@id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:gravity="center" android:src="@drawable/charging_process_bk_container" android:antialias="true" />
+    </item>
+    <item>
+        <selector>
+            <item android:state_pressed="true" android:drawable="@drawable/charge_page_charge_button_pressed" />
+            <item android:drawable="@drawable/charge_page_charge_button_normal" />
+        </selector>
+    </item>
+</layer-list>

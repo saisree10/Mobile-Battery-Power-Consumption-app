@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_item_margin_left_right" android:minHeight="@dimen/mode_list_item_height">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="@dimen/mode_list_item_margin_top_bottom" android:paddingBottom="@dimen/mode_list_item_margin_top_bottom" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/mode_list_item_height" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/mode_list_item_title_text_size" android:textColor="@color/mode_nomal_color" android:layout_gravity="center_vertical" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="@dimen/mode_list_item_content_text_size" android:textColor="@color/mode_content_color" android:id="@id/details" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="0.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/switch_text" android:textColor="@color/mode_nomal_color" android:gravity="center" android:layout_gravity="center" android:id="@id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mode_status_off" />
+        <ImageView android:layout_gravity="center" android:id="@id/arrow" android:background="@drawable/charge_page_button_right_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" />
+        <RelativeLayout android:id="@id/coin_button" android:background="@drawable/optimize_page_list_button_check" android:visibility="gone" android:layout_width="@dimen/smart_settings_coin_button_width" android:layout_height="@dimen/smart_settings_coin_button_height" android:layout_marginTop="@dimen/mode_list_item_margin_top_bottom" android:layout_marginRight="@dimen/smart_settings_coin_button_plus_margin_right">
+            <TextView android:textSize="@dimen/smart_settings_coin_button_text_size" android:gravity="center" android:id="@id/coin_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/saver_smart_ducoinsicon" android:drawablePadding="2.0dip" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</merge>

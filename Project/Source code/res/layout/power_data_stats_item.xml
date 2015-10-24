@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/setting_bg_middle_normal" android:layout_width="fill_parent" android:layout_height="@dimen/power_usage_detail_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/power_usage_detail_list_item_big_text" android:textColor="@color/local_white" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/name" android:paddingLeft="@dimen/list_item_margin_left_right" android:layout_width="0.0dip" android:layout_height="@dimen/power_usage_detail_list_item_height" android:singleLine="true" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/power_usage_detail_list_item_small_text" android:textColor="@color/mode_content_color" android:gravity="center_vertical" android:id="@id/value" android:paddingRight="@dimen/list_item_margin_left_right" android:layout_width="wrap_content" android:layout_height="@dimen/power_usage_detail_list_item_height" />
+</LinearLayout>

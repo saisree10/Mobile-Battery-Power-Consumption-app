@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/upgrade_dialog_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/local_white" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+    </ScrollView>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_upgrade" android:background="@drawable/upgrade_dialog_btn_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="12.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/upgrade_dialog_icon" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/local_white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/billing_btn_purchase" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center" android:orientation="horizontal" android:id="@id/rl_waitProgressBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="12.0dip">
+        <ImageView android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/upgrade_dialog_icon" />
+        <ProgressBar android:id="@id/progressBar" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="6.0dip" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/local_white" android:gravity="center" android:id="@id/tv_progressBar" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="14.0dip" android:text="@string/billing_tv_restoring" android:layout_toRightOf="@id/progressBar" />
+    </RelativeLayout>
+</LinearLayout>

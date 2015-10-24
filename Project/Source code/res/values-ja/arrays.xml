@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="personal_center_achievement_title">
+        <item>健康充電</item>
+        <item>クリアスマートな機能</item>
+        <item>バッテリースキンを収集</item>
+    </string-array>
+    <string-array name="personal_center_achievement_sub_title">
+        <item>よくやった！それを維持する！</item>
+        <item>より多くのロックを解除するために DU Coins を使用。</item>
+        <item>バッテリースキン店を訪問。</item>
+    </string-array>
+    <string-array name="coin_introduce_question">
+        <item>﻿﻿DU Coins とは何ですか。</item>
+        <item>DU Coins の使用方法を教えてください。</item>
+        <item>DU Coins を獲得方法を教えてください。</item>
+        <item>同じアプリのアンインストールと再インストールを何度も繰り返して DU Coins を獲得することはできますか。</item>
+        <item>DU Coins を貯めておくのに制限はありますか。</item>
+        <item>正常にアプリをインストールしましたが、DU Coins を獲得できませんでした。なぜですか。</item>
+    </string-array>
+    <string-array name="coin_introduce_answer">
+        <item>DU Coins とは、DU Battery Saver ユーザーを対象とする奨励策です。ユーザーは、DU Coins になるアプリをツールボックスにダウンロードすることにより、DU Coins を獲得できます。DU Coins は 2.99 ドルに相当する有料の機能と引き換えられます。</item>
+        <item>DU Coins は、2.99 ドルに相当する有料の機能と引き換えられるため、無料でプロフェッショナル PRO バージョンの省電力サービスをご利用いただけます。</item>
+        <item>DU Battery Saver ツールボックスを開き、DU Coins 記号が付けられているアプリを見つけてダウンロードします。インストールが完了すると対応する DU Coins を獲得できます。</item>
+        <item>いいえ。同じアプリから DU Coins を獲得できるのは一度だけです。</item>
+        <item>はい。DU Coins の改ざんを防止するため、1 日の最大獲得制限を設定しています。現在、1 日に獲得できる最大 DU Coins は、xx DU Coins です。</item>
+        <item>最初に、DU Coins になるアプリをインストールしたことを確認してください。次に、DU Coins の進呈にはインターネット経由での認証が必要なため、インストールした後、DU Battery Saver から DU Coins 進呈通知が送信されるまでお待ちください（約 1 分かかります）。障害を避けるため、インストール後はすぐにインターネットを切断しないでください。</item>
+    </string-array>
+    <string-array name="update_tips_item_des">
+        <item>- ユーザーインターフェイスの最適化！</item>
+        <item>-修正されたバグ</item>
+    </string-array>
+    <string-array name="update_tips_item_des_paid">
+        <item>-修正されたバグ</item>
+    </string-array>
+</resources>

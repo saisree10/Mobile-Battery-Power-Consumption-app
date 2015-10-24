@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="personal_center_achievement_title">
+        <item>Gesundheit Ladegeräte</item>
+        <item>Intelligenten Funktionen frei</item>
+        <item>Batterie Skins Gesammelte</item>
+    </string-array>
+    <string-array name="personal_center_achievement_sub_title">
+        <item>Gut gemacht, weiter so!</item>
+        <item>Verwenden DU Coins zu entsperren.</item>
+        <item>Besuch Batterie Haut-Shop.</item>
+    </string-array>
+    <string-array name="coin_introduce_question">
+        <item>﻿﻿Was sind DU Coins?</item>
+        <item>Wie werden DU Coins verwendet?</item>
+        <item>Wie verdiene ich DU Coins?</item>
+        <item>Kann ich DU Coins sammeln, wenn ich eine App mehrmals deinstalliere und neu installiere?</item>
+        <item>Gibt es eine Obergrenze zum Sammeln von DU Coins?</item>
+        <item>Ich habe eine App installiert, jedoch keine DU Coins erhalten. Warum ist das so?</item>
+    </string-array>
+    <string-array name="coin_introduce_answer">
+        <item>DU Coins gelten als Anreiz für Benutzer von DU Battery Saver. Benutzer haben die Möglichkeit, durch den Download bestimmter Apps aus der Toolbox DU Coins zu sammeln. DU Coins können für zahlungspflichtige Funktionen im Wert von 2,99 € eingelöst werden.</item>
+        <item>DU Coins können für zahlungspflichtige Funktionen im Wert von 2,99 € eingelöst werden. So fallen für die Verwendung des professionellen Energiesparservice der PRO Version keine Zusatzkosten an.</item>
+        <item>Öffnen Sie die DU Battery Saver Toolbox, suchen Sie nach Apps mit dem Du Coins-Symbol und laden Sie sie herunter. Nach einer erfolgreichen Installation erhalten Sie die entsprechenden DU Coins.</item>
+        <item>Nein. Mit einer App können nur einmal DU Coins gesammelt werden.</item>
+        <item>Ja. Um zu verhindern, dass DU Coins manipuliert werden, kann täglich nur eine bestimmte Anzahl an Du Coins gesammelt werden. Zurzeit können Sie nur xx Du Coins pro Tag sammeln.</item>
+        <item>Stellen Sie zunächst sicher, dass Sie eine App, für die es DU Coins gibt, installiert haben. Die gesammelten Du Coins müssen über das Internet authentifiziert werden. Warten Sie daher nach einer erfolgreichen Installation auf eine Bestätigung von DU Battery Saver (dauert etwa 1 Minuten), dass die Du Coins Ihrem Konto gutgeschrieben wurden. Trennen Sie Ihre Internetverbindung nicht direkt nach der Installation einer App, um Fehler zu vermeiden.</item>
+    </string-array>
+    <string-array name="update_tips_item_des">
+        <item>-Optimierung der Benutzeroberfläche!</item>
+        <item>-Fehler behoben</item>
+    </string-array>
+    <string-array name="update_tips_item_des_paid">
+        <item>-Fehler behoben</item>
+    </string-array>
+</resources>

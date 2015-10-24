@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll" android:background="@drawable/float_mode_switch_bkg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/local_white" android:gravity="left" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="8.0dip" android:maxWidth="270.0dip" android:lineSpacingExtra="4.0dip" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/float_mode_switch_line" />
+        <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/mode_icon" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:src="@drawable/app_icon_nf" />
+            <com.dianxinos.powermanager.mode.ModeIconView android:id="@id/to_mode_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_toRightOf="@id/img" android:layout_centerVertical="true" />
+            <Button android:textSize="18.0sp" android:textColor="@color/main_title_color" android:id="@id/btn_switch" android:background="@drawable/float_mode_switch_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/smart_switch_mode" android:singleLine="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/btn_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-23.0dip" android:src="@drawable/float_mode_switch_close" android:layout_toRightOf="@id/ll" android:layout_alignTop="@id/ll" android:layout_alignParentTop="true" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/mode_list_normal_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:power="http://schemas.android.com/apk/res-auto">
+    <com.dianxinos.powermanager.ui.MainTitle android:id="@id/scenetime_title" android:layout_width="fill_parent" android:layout_height="wrap_content" power:title_text="@string/details_remaind_time" />
+    <TextView android:textSize="@dimen/battery_info_title_text_size" android:textColor="@color/mode_nomal_color" android:gravity="center_vertical" android:id="@id/time_remain" android:background="@color/tab_indicator_background_color" android:paddingLeft="@dimen/battery_info_list_item_text_margin" android:layout_width="fill_parent" android:layout_height="@dimen/battery_info_title_height" />
+    <ImageView android:background="@color/mode_list_title_bg" android:layout_width="fill_parent" android:layout_height="@dimen/mode_list_line" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/time_items" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+</LinearLayout>

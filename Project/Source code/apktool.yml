@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: du-battery-saver-widgets-v380apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '7'
+  targetSdkVersion: '10'
+packageInfo:
+  cur_package: com.dianxinos.dxbs
+  orig_package: com.dianxinos.dxbs
+compressionType: true

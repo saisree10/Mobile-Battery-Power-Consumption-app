@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/theme_thumbnail" android:layout_width="@dimen/battery_theme_thumbnail_width_height" android:layout_height="@dimen/battery_theme_thumbnail_width_height" android:scaleType="center" />
+    <TextView android:textSize="@dimen/battery_theme_name_text" android:gravity="center_horizontal" android:layout_gravity="bottom" android:id="@id/theme_name" android:background="@drawable/battery_skin_default_name_mask" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+    <ImageView android:layout_gravity="bottom|right|center" android:id="@id/theme_selected" android:background="@drawable/toolbox_app_installed" android:visibility="invisible" android:layout_width="@dimen/toolbox_apps_gridview_item_icon_installed_size" android:layout_height="@dimen/toolbox_apps_gridview_item_icon_installed_size" android:layout_marginRight="@dimen/battery_theme_selected_flag_padding" android:layout_marginBottom="@dimen/battery_theme_selected_flag_padding" />
+    <ImageView android:id="@id/del_thumbnail" android:background="@drawable/battery_skin_del_mask" android:visibility="invisible" android:layout_width="@dimen/battery_theme_thumbnail_width_height" android:layout_height="@dimen/battery_theme_thumbnail_width_height" />
+</FrameLayout>

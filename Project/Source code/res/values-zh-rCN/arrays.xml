@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="personal_center_achievement_title">
+        <item>健康充电</item>
+        <item>智能功能解锁</item>
+        <item>电池皮肤收集</item>
+    </string-array>
+    <string-array name="personal_center_achievement_sub_title">
+        <item>棒极了，请保持！</item>
+        <item>使用 DU Coins 解锁更多。</item>
+        <item>进入电池皮肤商店。</item>
+    </string-array>
+    <string-array name="coin_introduce_question">
+        <item>什么是 DU Coins?</item>
+        <item>DU Coins 有什么作用?</item>
+        <item>怎样获取 DU Coins?</item>
+        <item>同一个应用可以通过卸载再安装多次获取 DU Coins 吗?</item>
+        <item>DU Coins 有获取上限吗?</item>
+        <item>为什么我成功安装了应用却没有获取 DU Coins?</item>
+    </string-array>
+    <string-array name="coin_introduce_answer">
+        <item>DU Coins 是DU Battery Saver对用户的一种奖励。用户可通过在工具箱下载带 DU Coins 应用赚取积分。</item>
+        <item>DU Coins 可用于兑换价值$2.99的付费功能,您无需付费也可享受PRO版更专业的省电服务。</item>
+        <item>访问DU Battery Saver工具箱,找到带 DU Coins 标识的应用下载,安装成功后即可获取相应的 DU Coins。</item>
+        <item>不能。同一个应用只能进行一次 DU Coins。</item>
+        <item>是的。为了防止 DU Coins 被恶意篡改,我们设定了每日最大可获取的 DU Coins 限额,当前您每天最多可获取xx DU Coins。</item>
+        <item>首先,请确认您安装的是带 DU Coins 的应用。其次,DU Coins 的发放需要通过网络验证,所以在安装成功后,请等待DU Battery Saver发出的成功通知(大概1分钟),不要立即断开网络,以免出现异常。</item>
+    </string-array>
+    <string-array name="update_tips_item_des">
+        <item>-优化界面交互！</item>
+        <item>-修正错误</item>
+    </string-array>
+    <string-array name="update_tips_item_des_paid">
+        <item>-修正错误</item>
+    </string-array>
+</resources>

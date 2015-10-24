@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/toolbox_balancebar" android:background="@drawable/coin_balancebar_bg" android:layout_width="fill_parent" android:layout_height="@dimen/toolbox_balance_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/toolbox_balance_bar_balance_size" android:textColor="@color/toolbox_balance_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/coin_balance" />
+        <TextView android:textSize="@dimen/toolbox_balance_bar_coin_value_size" android:textColor="@color/toolbox_balance_value" android:id="@id/toolbox_balance_value" android:paddingLeft="@dimen/toolbox_balance_value_padding_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/saver_smart_ducoinsicon" android:drawablePadding="@dimen/toolbox_value_icon_padding_left" />
+        <TextView android:textSize="@dimen/toolbox_balance_bar_whats_this_size" android:textColor="@color/toolbox_balance_title" android:id="@id/toolbox_whats_this" android:paddingLeft="@dimen/whats_this_padding_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/coin_whats_this" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="right" android:orientation="horizontal" android:id="@id/toolbox_balance_refresh" android:layout_width="60.0dip" android:layout_height="fill_parent">
+        <ImageView android:id="@id/toolbox_balance_refresh_ic" android:layout_width="@dimen/toolbox_balance_bar_height" android:layout_height="@dimen/toolbox_balance_bar_height" android:src="@drawable/toolbox_refresh_normal" />
+    </LinearLayout>
+</FrameLayout>

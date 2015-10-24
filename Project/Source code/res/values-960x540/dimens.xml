@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="health_charging_graph_margin_top">30.0dip</dimen>
+    <dimen name="health_charging_status_text_margin_bottom">12.0dip</dimen>
+</resources>

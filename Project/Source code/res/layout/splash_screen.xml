@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main" android:background="@drawable/contet_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="100.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="89.0">
+        <ImageView android:id="@id/about_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/about_us_icon" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/splash_title_text_size" android:textColor="@color/about_title_text_color" android:id="@id/about_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/splash_title_margin_top" android:text="@string/shared_app_name" android:layout_below="@id/about_icon" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/about_version_text_size" android:textColor="@color/about_version_text_color" android:id="@id/about_us_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/about_title_version_margin" android:layout_marginTop="@dimen/splash_title_margin_top" android:text="@string/smart_purchase_vice_title" android:layout_toRightOf="@id/about_title" android:layout_below="@id/about_icon" />
+        <TextView android:textSize="@dimen/splash_slogan_text_size" android:textColor="@color/about_subtitle_text_color" android:id="@id/about_us_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/about_title_subtitle_margin" android:text="@string/about_us_slogan" android:layout_below="@id/about_title" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

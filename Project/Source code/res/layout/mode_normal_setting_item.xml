@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mode_scrollview_item" android:focusable="true" android:clickable="true" android:minHeight="@dimen/list_item_height" style="@style/common_list_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/charge_page_button_right_normal" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/new_mode_title_item_value_text_size" android:textColor="@color/local_white" android:id="@id/settingvalue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/new_mode_title_item_value_array_margin" android:layout_toLeftOf="@id/arrow" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/mode_list_item_title_text_size" android:textColor="@color/mode_nomal_color" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/settingvalue" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+</RelativeLayout>

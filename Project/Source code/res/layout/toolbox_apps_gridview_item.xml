@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/toolbox_apps_gridview_item_icon_layout" android:background="@drawable/grid_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/toolbox_apps_gridview_hight">
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/toolbox_apps_gridview_item_icon_w" android:layout_width="@dimen/toolbox_apps_gridview_item_icon_size" android:layout_height="@dimen/toolbox_apps_gridview_item_icon_size" android:layout_marginTop="@dimen/toolbox_apps_gridview_icon_margin_top" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/toolbox_apps_gridview_item_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+            <ImageView android:layout_gravity="bottom|right|center" android:id="@id/toolbox_apps_gridview_item_icon_installed" android:layout_width="@dimen/toolbox_apps_gridview_item_icon_installed_size" android:layout_height="@dimen/toolbox_apps_gridview_item_icon_installed_size" android:src="@drawable/toolbox_app_installed" android:scaleType="fitXY" />
+        </FrameLayout>
+        <TextView android:textSize="@dimen/toolbox_apps_gridview_item_text_size" android:textColor="@color/toolbox_apps_gridview_item_text_color" android:gravity="center" android:layout_gravity="top|center" android:id="@id/toolbox_apps_gridview_item_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/toolbox_apps_gridview_item_text_margin_left_right" android:layout_marginTop="@dimen/toolbox_apps_gridview_item_text_margin_top" android:layout_marginRight="@dimen/toolbox_apps_gridview_item_text_margin_left_right" android:maxLines="2" android:layout_below="@id/toolbox_apps_gridview_item_icon_w" android:lineSpacingExtra="@dimen/toolbox_apps_gridview_item_text_line_space" />
+    </RelativeLayout>
+</FrameLayout>

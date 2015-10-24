@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/mode_list_item_height">
+        <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_item_point_padding" android:layout_marginRight="@dimen/list_item_point_padding" android:src="@drawable/mode_off" android:scaleType="centerInside" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="@dimen/mode_list_item_margin_top_bottom" android:paddingBottom="@dimen/mode_list_item_margin_top_bottom" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/list_item_point_padding" android:minHeight="@dimen/mode_list_item_height" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/mode_list_item_title_text_size" android:textColor="@color/mode_nomal_color" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="@dimen/mode_list_item_content_text_size" android:textColor="@color/mode_content_color" android:id="@id/detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="0.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/edit_del_panel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/edit" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/edit_padding_right" android:src="@drawable/mode_edit_bkg" />
+            <ImageView android:id="@id/delete" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/list_item_point_padding" android:src="@drawable/mode_delete_bkg" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

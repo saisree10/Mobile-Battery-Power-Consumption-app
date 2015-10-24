@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="personal_center_achievement_title">
+        <item>Salute Chargers</item>
+        <item>Funzioni intelligenti Unlocked</item>
+        <item>Skins raccolte sulla batteria</item>
+    </string-array>
+    <string-array name="personal_center_achievement_sub_title">
+        <item>Ben fatto! Continuate così!</item>
+        <item>Utilizzare i DU Coins per sbloccare più.</item>
+        <item>Visita batteria Pelle Shop.</item>
+    </string-array>
+    <string-array name="coin_introduce_question">
+        <item>Apa itu DU Coins?</item>
+        <item>Bagaimana cara Du Coins digunakan?</item>
+        <item>Bagaimana saya bisa memperoleh DU Coins?</item>
+        <item>Dapatkah saya meraih DU Coins dengan menghapus dan menginstal ulang aplikasi yang sama beberapa kali?</item>
+        <item>Adakah batas akumulasi DU Coins?</item>
+        <item>Saya berhasil menginstal aplikasi tetapi tidak mendapatkan DU Coins. Mengapa?</item>
+    </string-array>
+    <string-array name="coin_introduce_answer">
+        <item>DU Coins adalah insentif bagi pengguna DU Battery Saver. Pengguna dapat memperoleh DU Coins dengan mengunduh aplikasi penghasil DU Coins di Kotak alat. DU Coins dapat ditukarkan dengan fitur berbayar senilai $2,99.</item>
+        <item>DU Coins dapat ditukarkan dengan fitur berbayar senilai $2,99, sehingga Anda tidak perlu membayar untuk menikmati layanan hemat energi profesional versi PRO.</item>
+        <item>Buka Kotak alat DU Battery Saver, lalu temukan dan unduh aplikasi yang ditandai dengan simbol DU Coins. Setelah berhasil menginstal, Anda akan mendapatkan DU Coins yang sesuai.</item>
+        <item>Tidak. DU Coins hanya bisa diperoleh satu kali dari aplikasi yang sama.</item>
+        <item>Ya. Untuk mencegah pemalsuan DU Coins, kami telah menetapkan batas maksimum DU Coins harian, artinya Anda hanya bisa memperoleh maksimum xx DU Coins per hari.</item>
+        <item>Pertama, pastikan Anda telah menginstal aplikasi penghasil DU Coins. Kedua, hadiah DU Coins harus diautentikasi melalui internet, jadi setelah instalasi berhasil, harap tunggu pemberitahuan hadiah DU Coins yang akan dikirim oleh DU Battery Saver (memerlukan waktu sekitar 1 menit). Jangan memutus koneksi dari internet setelah instalasi untuk mencegah terjadi kesalahan.</item>
+    </string-array>
+    <string-array name="update_tips_item_des">
+        <item>-Optimisasi untuk Antarmuka Pengguna!</item>
+        <item>-Bugs tetap</item>
+    </string-array>
+    <string-array name="update_tips_item_des_paid">
+        <item>-Bugs tetap</item>
+    </string-array>
+</resources>

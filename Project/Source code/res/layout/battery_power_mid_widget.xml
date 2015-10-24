@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/battery_widget" android:layout_width="@dimen/appwidget_mid_width" android:layout_height="@dimen/appwidget_mid_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="top|left|center" android:id="@id/battery_capacity_image" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" />
+    <ImageView android:layout_gravity="top|left|center" android:id="@id/battery_custom_image" android:visibility="gone" android:layout_width="@dimen/appwidget_mid_bat_width" android:layout_height="@dimen/appwidget_mid_bat_height" android:layout_marginLeft="4.0dip" android:layout_marginTop="2.0dip" android:scaleType="fitStart" />
+    <LinearLayout android:gravity="center" android:background="@drawable/widget_battery_empty" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/battery_charging_sign" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/small_widget_text_left_margin" android:src="@drawable/battery_charging" android:scaleType="center" />
+        <TextView android:textSize="@dimen/dx_batterygraph_text_size" android:textColor="@color/local_white" android:gravity="center_vertical" android:id="@id/battery_left_power" android:layout_width="wrap_content" android:layout_height="fill_parent" android:shadowColor="@color/battery_percent_shadow" android:shadowDx="0.0" android:shadowDy="-1.0" android:shadowRadius="1.0" />
+    </LinearLayout>
+</FrameLayout>

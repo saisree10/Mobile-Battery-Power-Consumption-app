@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:power="http://schemas.android.com/apk/res-auto">
+    <com.dianxinos.powermanager.ui.MainTitle android:id="@id/title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" power:title_text="@string/skin_shop_title" />
+    <FrameLayout android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.dianxinos.common.ui.fragment.TitleIndicator android:id="@id/pagerindicator" android:layout_width="fill_parent" android:layout_height="@dimen/title_indicator_height" power:textColor="@color/tab_indicator_text" power:textSizeNormal="@dimen/title_indicator_text_size" power:textSizeSelected="@dimen/title_indicator_text_size" power:footerLineHeight="3.0dip" power:footerColor="@color/tab_indicator_text_selected" power:footerTriangleHeight="0.0dip" />
+        <ImageView android:layout_gravity="bottom" android:background="@color/mode_list_title_bg" android:layout_width="fill_parent" android:layout_height="@dimen/mode_list_line" />
+    </FrameLayout>
+    <com.dianxinos.common.ui.fragment.DXViewPager android:id="@id/pager" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

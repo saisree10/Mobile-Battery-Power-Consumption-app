@@ -1,0 +1,17 @@
+[
+    {
+        "name": "DEFAULT",
+        "id": "47929",
+        "max": 36
+    },
+    {
+        "name": "ADUNLOCK",
+        "id": "53860",
+        "max": 4
+    },
+    {
+        "name": "tctb",
+        "id": "0",
+        "max": 10
+    }
+]

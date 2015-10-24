@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/mode_list_item_bkg" android:paddingLeft="@dimen/list_item_margin_left_right" android:paddingRight="@dimen/list_item_margin_left_right" android:layout_width="fill_parent" android:layout_height="@dimen/mode_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/power_usage_list_item_base" />
+    <TextView android:textSize="@dimen/monitor_button_text_size" android:textColor="@color/monitor_button_text_color" android:gravity="center" android:id="@id/action" android:background="@drawable/btn_restore" android:paddingLeft="@dimen/monitor_button_text_padding" android:paddingRight="@dimen/monitor_button_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/monitor_button_margin_left" android:text="@string/apps_usage_stop_app" />
+</LinearLayout>
